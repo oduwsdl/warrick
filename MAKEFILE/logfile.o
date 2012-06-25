@@ -1,0 +1,38 @@
+HTTP/1.1 302 Found
+Date: Mon, 20 Feb 2012 10:41:52 GMT
+Server: Apache/2.2.15 (Red Hat)
+Vary: negotiate,accept-datetime
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/>;rel="timebundle",<http://www.cs.odu.edu/>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/19970102130137/http://cs.odu.edu/>;rel="first memento";datetime="Thu, 02 Jan 1997 13:01:37 GMT",<http://api.wayback.archive.org/memento/20110720015831/http://cs.odu.edu/>;rel="last memento";datetime="Wed, 20 Jul 2011 01:58:31 GMT",<http://api.wayback.archive.org/memento/20070718235709/http://www.cs.odu.edu/>;rel="prev memento";datetime="Wed, 18 Jul 2007 23:57:09 GMT",<http://api.wayback.archive.org/memento/20070826105518/http://www.cs.odu.edu/>;rel="next memento";datetime="Sun, 26 Aug 2007 10:55:18 GMT",<http://api.wayback.archive.org/memento/20070719204933/http://www.cs.odu.edu/>;rel="memento";datetime="Thu, 19 Jul 2007 20:49:33 GMT"
+Location: http://api.wayback.archive.org/memento/20070719204933/http://www.cs.odu.edu/
+Content-Length: 0
+Connection: close
+Content-Type: text/plain; charset=UTF-8
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Memento-Datetime: Thu, 19 Jul 2007 20:49:33 GMT
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/>; rel="timebundle", <http://www.cs.odu.edu/>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/>; rel="timegate", <http://api.wayback.archive.org/memento/19970102130137/http://www.cs.odu.edu/>; rel="first memento"; datetime="Thu, 02 Jan 1997 13:01:37 GMT", <http://api.wayback.archive.org/memento/20070718235709/http://www.cs.odu.edu/>; rel="prev memento"; datetime="Wed, 18 Jul 2007 23:57:09 GMT", <http://api.wayback.archive.org/memento/20070719204933/http://www.cs.odu.edu/>; rel="memento"; datetime="Thu, 19 Jul 2007 20:49:33 GMT", <http://api.wayback.archive.org/memento/20070826105518/http://www.cs.odu.edu/>; rel="next memento"; datetime="Sun, 26 Aug 2007 10:55:18 GMT", <http://api.wayback.archive.org/memento/20110720015831/http://www.cs.odu.edu/>; rel="last memento"; datetime="Wed, 20 Jul 2011 01:58:31 GMT"
+X-Archive-Guessed-Charset: windows-1252
+X-Archive-Orig-Connection: close
+X-Archive-Orig-X-Meta-GENERATOR: MSHTML 6.00.2900.2627
+X-Archive-Orig-X-Meta-Keywords: College of Sciences
+X-Archive-Orig-Client-Date: Thu, 19 Jul 2007 20:49:33 GMT
+X-Archive-Orig-X-Meta-Description: College of Sciences
+X-Archive-Orig-Link: <files/style.css>; rel="stylesheet"; title="style"; type="text/css"
+X-Archive-Orig-Date: Thu, 19 Jul 2007 20:49:33 GMT
+X-Archive-Orig-Client-Response-Num: 1
+X-Archive-Orig-Client-Peer: 128.82.4.2:80
+X-Archive-Orig-Content-Type: text/html; charset=windows-1252
+X-Archive-Orig-Title: Department Of Computer Science
+X-Archive-Orig-Accept-Ranges: bytes
+X-Archive-Orig-Server: Apache/2.2.0
+X-Archive-Orig-Client-Transfer-Encoding: chunked
+Content-Type: text/html;charset=windows-1252
+Content-Length: 50825
+Date: Mon, 20 Feb 2012 10:41:52 GMT
+X-Varnish: 1619483232
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: MISS
+

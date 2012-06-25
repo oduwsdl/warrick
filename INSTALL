@@ -1,0 +1,22 @@
+#! /bin/sh
+
+apt-get install perl
+yum install perl
+
+perl -MCPAN -e 'install HTML::TagParser'
+perl -MCPAN -e 'install HTML::LinkExtractor'
+perl -MCPAN -e 'install HTTP::Cookies'
+perl -MCPAN -e 'install HTTP::Status'
+perl -MCPAN -e 'install URI'
+perl -MCPAN -e 'install CSS'
+perl -MCPAN -e 'install HTTP::Date'
+perl -MCPAN -e 'install Getopt::Long'
+
+
+apt-get install curl libcurl3 libcurl3-dev
+yum install curl
+
+apt-get install python
+yum install python
+
+

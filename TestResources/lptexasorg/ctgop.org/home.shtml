@@ -1,0 +1,562 @@
+<html>
+<head><base href="http://www.ctgop.org:80/home.shtml" />
+<title>ctgop.org::welcome to connecticut republicans!</title>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<link rel="stylesheet" href="styles/style.css" type="text/css" />
+
+<SCRIPT language=JavaScript src="js/randompix.js" type=text/javascript></SCRIPT>
+<SCRIPT language=JavaScript src="js/resize.js" type=text/javascript></SCRIPT>
+
+
+
+<script type="text/javascript">
+
+function createTarget(t){
+window.open("", t, "width=300,height=200");
+return true;
+}
+
+</script>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+
+function NewWindow(mypage, myname, w, h, scroll) {
+var winl = (screen.width - w) / 2;
+var wint = (screen.height - h) / 2;
+winprops = 'height='+h+',width='+w+',top='+wint+',left='+winl+',scrollbars='+scroll+',resizable'
+win = window.open(mypage, myname, winprops)
+if (parseInt(navigator.appVersion) >= 4) { win.window.focus(); }
+}
+
+//  End -->
+</script>
+
+</head>
+
+<!--<body onLoad="setTimeout('popupPage()', 2000);">-->
+<body>
+
+<SCRIPT language=JavaScript src="js/menu_array.js" type=text/javascript></SCRIPT>
+<SCRIPT language=JavaScript src="js/mmenu.js" type=text/javascript></SCRIPT>
+
+<div id="page">
+  <img src="images/spacer.gif" width=750 height=600 align=left>
+
+  <div id="header">
+    <img src="images/header.gif" width=750 height=67 border=0 usemap=#header_Map align=left>
+  </div>
+
+  <div id="flash">
+     <SCRIPT language=JavaScript src="js/seasons.js" type=text/javascript></SCRIPT>
+<!--
+     <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" WIDTH=423 HEIGHT=80 ALIGN=left>
+       <PARAM NAME=movie VALUE="home.swf">
+       <PARAM NAME=quality VALUE=medium>
+       <PARAM NAME=bgcolor VALUE=#A5B7C9>
+       <EMBED src="home.swf" quality=medium bgcolor=#000000  WIDTH=423 HEIGHT=80 ALIGN=left TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></EMBED>
+    </OBJECT>
+-->
+  </div>
+
+  <div id="divider">
+    &nbsp;
+  </div>
+
+  <div id="content">
+
+  <table width=750 cellspacing=0 cellpadding=0 align=left>
+    <tr>
+      <td align=left valign=top>
+        <img src="images/spacer.gif" width=1 height=500 align=left>
+      </td>
+      <td align=left valign=top>
+
+        <table width=100% cellspacing=0 cellpadding=10 align=left>
+          <tr>
+            <td width=200 align=left valign=top><br>
+              <font>
+                <!--begin scrollnews-->
+
+<img src="images/br_scroll.gif" width=180 height=20><br><br>
+
+
+<font class="foot">
+  <a name="000324"></a>
+  <a href="http://www.ctgop.org/ctpress/archives/prelection05.pdf" target=_blank class="scroll">CONNECTICUT REPBULICANS SEE GAINS IN MUNICIPAL ELECTIONS</a><br>	
+</font>
+<font class="posted">
+  Nov,  9 2005<br><hr>
+</font>
+
+<font class="foot">
+  <a name="000322"></a>
+  <a href="http://www.ctgop.org/ctpress/archives/prdestefanolaw%20_2_.pdf" target=_blank class="scroll">CONNECTICUT REPUBLICAN CHAIRMAN WILLIAM A. HAMZY COMMENTS ON MAYOR DeSTEFANO’S BLATANT VIOLATION OF THE LAW</a><br>	
+</font>
+<font class="posted">
+  Nov,  3 2005<br><hr>
+</font>
+
+<font class="foot">
+  <a name="000319"></a>
+  <a href="http://www.ctgop.org/ctpress/archives/Cong%20Awards%20Invite%20Final.pdf" target=_blank class="scroll">Join The Honorable Micheal Steele (R-MD) At the Congressional Awards Dinner November 15th 2005</a><br>	
+</font>
+<font class="posted">
+  Oct, 27 2005<br><hr>
+</font>
+
+
+<!--end scrollnews-->
+	
+	
+                <br>
+<SCRIPT LANGUAGE="JavaScript">
+
+showImage();
+
+</script>
+
+<!--
+<center>
+<br>
+<a href="http://www.georgewbush.com" target=_blank><img src="images/gwbweb-button.gif" width=140 height=60 border=0></a>
+
+<br><br>
+<a href="http://www.gopconvention.com/"><img src="http://www.gopconvention.com/images/banner2.gif" width="125" height="125" border="0"></a>
+</center>
+-->
+
+<br><br>
+<img src="images/br_survey.gif" width=180 height=20>
+
+<!--Begin Poll-->
+<font class=foot>
+
+<b>How often do you visit ctgop.org?</b>&nbsp;
+<A HREF="cgi-bin/survey/survey.cgi?survey_name=srv0001" onclick="NewWindow(this.href,'srview','400','300','yes');return false;">View Results</A>
+
+<FORM ACTION="/cgi-bin/survey/survey.cgi" onsubmit="return createTarget(this.target)" target="srv" METHOD="POST">
+
+<INPUT TYPE="RADIO" NAME="ITEM_1" VALUE="ITEM_1|Daily">Daily<br>
+<INPUT TYPE="RADIO" NAME="ITEM_1" VALUE="ITEM_1|Weekly">Weekly<br>
+<INPUT TYPE="RADIO" NAME="ITEM_1" VALUE="ITEM_1|Monthly">Monthly<br>
+<INPUT TYPE="RADIO" NAME="ITEM_1" VALUE="ITEM_1|Other" checked>Other<br>
+
+<br>
+<INPUT TYPE="hidden" NAME="survey_name" VALUE="srv0001">
+<center>
+<INPUT TYPE="SUBMIT" VALUE="submit" class="submit">
+</center><br>
+
+</FORM>
+
+</font>
+<!--End Poll-->
+
+<img src="images/break.gif" width=180 height=20>
+
+<table width=100% cellspacing="2" cellpadding="2" class="month" summary="Monthly calendar with links to each day's posts">
+<caption class="calendarhead" align="left">&nbsp;&nbsp;April 2005</caption>
+<tr>
+<th abbr="Sunday" align="center"><span class="calendar">S</span></th>
+<th abbr="Monday" align="center"><span class="calendar">M</span></th>
+<th abbr="Tuesday" align="center"><span class="calendar">T</span></th>
+<th abbr="Wednesday" align="center"><span class="calendar">W</span></th>
+<th abbr="Thursday" align="center"><span class="calendar">T</span></th>
+<th abbr="Friday" align="center"><span class="calendar">F</span></th>
+<th abbr="Saturday" align="center"><span class="calendar">S</span></th>
+</tr>
+
+
+<tr>
+
+<td align="center"><span class="calendar">
+&nbsp;</span></td>
+
+
+<td align="center"><span class="calendar">
+&nbsp;</span></td>
+
+
+<td align="center"><span class="calendar">
+&nbsp;</span></td>
+
+
+<td align="center"><span class="calendar">
+&nbsp;</span></td>
+
+
+<td align="center"><span class="calendar">
+&nbsp;</span></td>
+
+
+<td align="center"><span class="calendar">
+1</span></td>
+
+
+<td align="center"><span class="calendar">
+2</span></td></tr>
+<tr>
+
+<td align="center"><span class="calendar">
+3</span></td>
+
+
+<td align="center"><span class="calendar">
+4</span></td>
+
+
+<td align="center"><span class="calendar">
+5</span></td>
+
+
+<td align="center"><span class="calendar">
+6</span></td>
+
+
+<td align="center"><span class="calendar">
+7</span></td>
+
+
+<td align="center"><span class="calendar">
+8</span></td>
+
+
+<td align="center"><span class="calendar">
+9</span></td></tr>
+<tr>
+
+<td align="center"><span class="calendar">
+10</span></td>
+
+
+<td align="center"><span class="calendar">
+11</span></td>
+
+
+<td align="center"><span class="calendar">
+12</span></td>
+
+
+<td align="center"><span class="calendar">
+13</span></td>
+
+
+<td align="center"><span class="calendar">
+14</span></td>
+
+
+<td align="center"><span class="calendar">
+15</span></td>
+
+
+<td align="center"><span class="calendar">
+16</span></td></tr>
+<tr>
+
+<td align="center"><span class="calendar">
+17</span></td>
+
+
+<td align="center"><span class="calendar">
+18</span></td>
+
+
+<td align="center"><span class="calendar">
+19</span></td>
+
+
+<td align="center"><span class="calendar">
+20</span></td>
+
+
+<td align="center"><span class="calendar">
+21</span></td>
+
+
+<td align="center"><span class="calendar">
+<a href="http://www.ctgop.org/ctevents/archives/2005_04_22.shtml" class="event" onclick="NewWindow(this.href,'date','400','300','yes');return false;">22</a></span></td>
+
+
+<td align="center"><span class="calendar">
+23</span></td></tr>
+<tr>
+
+<td align="center"><span class="calendar">
+24</span></td>
+
+
+<td align="center"><span class="calendar">
+25</span></td>
+
+
+<td align="center"><span class="calendar">
+<a href="http://www.ctgop.org/ctevents/archives/2005_04_26.shtml" class="event" onclick="NewWindow(this.href,'date','400','300','yes');return false;">26</a></span></td>
+
+
+<td align="center"><span class="calendar">
+27</span></td>
+
+
+<td align="center"><span class="calendar">
+28</span></td>
+
+
+<td align="center"><span class="calendar">
+29</span></td>
+
+
+<td align="center"><span class="calendar">
+30</span></td></tr>
+</table>
+
+
+
+
+              </font> 
+            </td>
+            <td width=350 align=left valign=top><br>
+              <font>
+                <table border="0" width="350" align="left" cellspacing="0" cellpadding="1">
+  <tr>
+    <td align=left valign=top>
+      <img src="images/hd_welcome.gif" width=300 height=24>
+      <font>
+
+<br><br>
+
+Welcome to the Connecticut Republican Party's website! Our purpose here at State Central is very simple.  <b><u>WE HELP ELECT REPUBLICANS!</u></b>  It is our hope that this website will assist Republicans and other like-minded individuals become more informed about our Party. We offer support to candidates, town committees and anyone interested in the Republican Party.  We encourage you to participate in any way you can: sign up to <a href="volunteer.shtml">Volunteer</a> and become active in your local town committee,  <a href="contribute.shtml">Donate</a> to the party and help Republicans win seats in offices across the State of Connecticut from Mayors and First Selectmen to Governor of this great State.<br><br> 
+ 
+Republicans are the Party of values, integrity and freedom.  Help me inform the people of this State all that our Party has to offer…<b><u>PLEASE GET INVOLVED!</u></b><br><br>  
+
+If I can be of assistance to you, please contact me by E-mail at <a href="mailto:chairman@ctgop.org">chairman@ctgop.org</a> or by telephone at 860.547.0589.<br><br>  
+
+Sincerely,<br><br> 
+
+
+William A. Hamzy, Chairman <br>
+Connecticut Republican Party<br>
+
+<br><hr><br>
+
+    </td>
+  </tr>
+
+                  <tr>
+    <td align=left valign=top>
+      <img src="images/hd_join.gif" width=300 height=24>
+      <font>
+
+<br><br>
+
+Whether you are already involved or you would like to become active, please consider attending local Party events in your area and joining your local town committee.<br><br>
+
+You will find more information about these meetings in our <a href="events.shtml">calendar of events</a> or by contacting your <a href="towns.shtml">local chairman</a> of the Party.<br><br>
+
+We hope you will return to this web site often as this site is updated frequently.
+
+<br><br>
+
+<br><hr><br>
+
+    </td>
+  </tr>
+
+                  <tr>
+    <td align=left valign=top>
+      <img src="images/hd_history.gif" width=300 height=24>
+      <font>
+
+<br><br>
+
+<b>From Ripon to Reagan</b><br>
+The Republican Party has remained true to the principles of freedom and personal liberty that it was founded on nearly 150 years ago. <a href="history.shtml">more...</a><br><br>
+
+
+    </td>
+  </tr>
+
+                  <tr>
+    <td align=center valign=top><hr>
+
+<a href="javascript:CaricaFoto('images/tr_willimantic_lg.jpg')" border=0><img src="images/tr_willimantic_sm.jpg" width=100 height=73 border=0 alt="President Theodore Roosevelt in Willimantic, August 23, 1902"></a>
+
+<a href="javascript:CaricaFoto('images/gop_middletown_lg.jpg')" border=0><img src="images/gop_middletown_sm.jpg" width=100 height=73 border=0 alt="Presidential banner over Main Street, Middletown, 1888"></a>
+
+<a href="javascript:CaricaFoto('images/gop_mystic_lg.jpg')" border=0><img src="images/gop_mystic_sm.jpg" width=100 height=73 border=0 alt="Republican Party headquarters, Cottrell Street, Mystic, 1896"></a>
+
+    </td>
+  </tr>
+</table>
+              </font>
+            </td>
+            <td width=200 align=left valign=top class="rcol"><br>
+              <font>
+                    
+<img src="images/br_banners.gif" width=180 height=20>
+
+<br>
+<table width=182 cellpadding=2 cellspacing=0 class="email"><tr><td align=left>
+    <FORM ACTION="/cgi-bin/subscribe.cgi" METHOD="POST" onsubmit="return createTarget(this.target)" target="sub">
+    <INPUT TYPE="HIDDEN" NAME="action" VALUE="subscribe" checked>
+    <INPUT TYPE="TEXT" NAME="email" VALUE="sign up today!" SIZE=25 MAXLENGTH=100 class="flashit"><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <INPUT TYPE="HIDDEN" NAME="datafile" VALUE="subscribe">
+    <INPUT TYPE="SUBMIT" VALUE="go!" class="submit">
+    </FORM>
+</td></tr></table>
+
+<img src="images/break.gif" width=180 height=20>
+
+<a href="volunteer.shtml"><img src="images/banners/bnr_volunteer.gif" width=180 height=60 border=0></a>
+
+<img src="images/break.gif" width=180 height=20>
+
+<a href="contribute.shtml"><img src="images/banners/bnr_contribute.gif" width=180 height=60 border=0></a>
+
+<img src="images/break.gif" width=180 height=20>
+
+<a href="register.shtml"><img src="images/banners/bnr_register.gif" width=180 height=60 border=0></a>
+
+<img src="images/break.gif" width=180 height=20>
+
+<a href="teamleader.shtml"><img src="images/banners/bnr_teamleader.gif" width=180 height=60 border=0></a>
+
+<!--
+<br>
+<img src="images/br_email.gif" width=180 height=20>
+<font class=foot>
+Enter your email address to receive <b>ctgop</b> updates and stay up-to-date on all the news concerning the Connecticut GOP:<br>
+
+<center>
+    <FORM ACTION="/cgi-bin/subscribe.cgi" METHOD="POST">
+    <INPUT TYPE="HIDDEN" NAME="action" VALUE="subscribe" checked>
+    <INPUT TYPE="TEXT" NAME="email" VALUE="sign up today!" SIZE=25 MAXLENGTH=100 class="flashit"><br><br>
+    <INPUT TYPE="HIDDEN" NAME="datafile" VALUE="subscribe">
+    <INPUT TYPE="SUBMIT" VALUE="sign up" class="submit">
+    </FORM>
+</center>
+
+</font>
+-->
+
+<br>
+
+              </font> 
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2 align=left valign=bottom>
+        <font>  
+                  <table width=100% cellspacing=0 cellpadding=10 align=left class="links">
+          <tr>
+            <td width=250 align=center valign=top>
+              <font class="foot">
+                <SCRIPT language=JavaScript src="js/randomlinx1.js" type=text/javascript></SCRIPT>
+              </font> 
+            </td>
+            <td width=250 align=center valign=top>
+              <font class="foot">
+                <SCRIPT language=JavaScript src="js/randomlinx2.js" type=text/javascript></SCRIPT>
+              </font>
+            </td>
+            <td width=250 align=center valign=top>
+              <font class="foot">
+                <SCRIPT language=JavaScript src="js/randomlinx3.js" type=text/javascript></SCRIPT>
+              </font> 
+            </td>
+          </tr>
+        </table>
+        </font>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2 align=left valign=bottom>  
+        <img src="images/spacer.gif" width=1 height=71 align=left>
+      </td>
+    </tr>
+  </table>
+
+
+  <div id="footer">
+  <table width=750 cellspacing=0 cellpadding=0 align=left>
+    <tr>
+      <td align=left valign=top>
+        <font class="foot">
+<a href="index.shtml">home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="contactus.shtml">contact us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="sitemap.shtml">site map</a>
+      </td>
+      <td align=right valign=top>
+        <font class="foot">
+Various photos appearing on this page<br>'Used by permission of the State of Connecticut'
+      </td>
+    </tr>
+    <tr>
+      <td align=left valign=top><br>
+        <img src="images/yn2comm_logo.gif"><br>
+      </td>
+      <td align=right valign=top>
+        <font class="foot"><br>
+&#169; 2003 Connecticut Republican State Central Committee. All Rights Reserved.<br>
+Paid for by Connecticut Republicans. Steve Bafundo, Treasurer.<br>
+
+<img src="http://www.ctgop.org/cgi-bin/mailer/imagestart.pl" width="1" height="1" border="0" alt="start">
+
+    </font>
+      </td>
+    </tr>
+  </table>
+  </div>
+      
+  </div>
+
+</div>
+
+<script language="JavaScript" src="js/flashit.js"></script>
+
+
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 14:01:51 Nov 25, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 1:10:25 Aug 15, 2011.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  var wmNotice = "Wayback - External links, forms, and search boxes may not function within this collection. Url: http://www.ctgop.org:80/home.shtml time: 14:01:51 Nov 25, 2005";
+  var wmHideNotice = "hide";
+</script>
+<script type="text/javascript" src="http://staticweb.archive.org/js/disclaim.js"></script>
+</body>
+
+<MAP NAME="header_Map">
+<AREA SHAPE="rect" ALT="home" COORDS="59,48,197,65" HREF="index.shtml">
+<AREA SHAPE="rect" ALT="help" COORDS="733,48,747,65" HREF="#">
+<AREA SHAPE="rect" ALT="en español" COORDS="641,48,731,65" HREF="esp/home.shtml">
+<AREA SHAPE="rect" ALT="site map" COORDS="560,48,639,65" HREF="sitemap.shtml">
+<AREA SHAPE="rect" ALT="contact us" COORDS="471,48,558,65" HREF="contactus.shtml">
+</MAP>
+
+</html>
+

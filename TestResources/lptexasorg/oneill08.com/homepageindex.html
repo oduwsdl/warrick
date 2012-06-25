@@ -1,0 +1,683 @@
+
+
+
+<!--
+Start of EscapeHatch.jsp output
+-->
+
+<script type="text/javascript">
+
+//============================================
+// Wayback Common JS Library
+//============================================
+	
+function WB_StripPort(str)
+{
+  var hostWithPort = str.match(/^http:\/\/[\w\d@.-]+:\d+/);
+  if (hostWithPort) {
+     var hostName = hostWithPort[0].substr(0, hostWithPort[0].lastIndexOf(':'));
+     return hostName + str.substr(hostWithPort[0].length);
+  }
+
+  return str;
+}
+
+function WB_IsHostUrl(str)
+{
+  // hostname:port
+  var matches = str.match(/^[\w-]+(\.[\w-_]+)+(:\d+)?(\/|$)/);
+  if (matches && (matches[0].length < 64)) {
+    return true;
+  }
+  
+  // ip:port
+  matches = str.match(/^\d+\.\d+\.\d+\.\d+(:\d+)?(\/|$)/);
+  if (matches && (matches[0].length < 64)) {
+    return true;
+  }
+
+  return false;
+}
+
+function WB_RewriteUrl(url)
+{
+  var archivePrefix = "http://wayback.archive-it.org/1201/20081025142138/";
+  var origHost = "http://www.oneill08.com";
+  var httpPrefix = "http://";
+
+  // If not dealing with a string, just return it
+  if (!url || (typeof url) != "string") {
+    return url;
+  }
+  
+  // If starts with prefix, no rewriting needed  
+  if (url.indexOf(archivePrefix) == 0) {
+    return url;
+  }
+  
+  // If server relative url, add prefix and original host
+  if (url.charAt(0) == "/") {
+    return archivePrefix + origHost + url;
+  }
+  
+  // If full url starting with http://, add prefix
+  if (url.indexOf(httpPrefix) == 0) {
+    return archivePrefix + url;
+  }
+  
+  // May or may not be a hostname, call function to determine
+  // If it is, add the prefix and make sure port is removed
+  if (WB_IsHostUrl(url)) {
+    return archivePrefix + httpPrefix + url;
+  }
+
+  return url;
+}
+
+function WB_CopyObjectFields(obj)
+{
+  var newObj = {};
+  
+  for (prop in obj) {
+    if ((typeof obj[prop]) != "function") {
+      newObj[prop] = obj[prop];
+    }
+  }
+  
+  return newObj;
+}
+  
+//============================================
+//Wayback Domain-Specific Overrides
+//============================================
+	
+	
+function WB_CopyLocationObj(loc)
+{
+  var newLoc = WB_CopyObjectFields(loc);
+  
+  newLoc._origLoc = loc;
+  
+  // Rewrite replace and assign functions
+  newLoc.replace = function(url) { this._origLoc.replace(WB_RewriteUrl(url)); }
+  newLoc.assign = function(url) { this._origLoc.assign(WB_RewriteUrl(url)); }
+  newLoc.reload = loc.reload;
+  newLoc.toString = function() { return this.href; }
+  
+  return newLoc;
+}
+
+
+// Location objects
+var WB_wombat_top_location = WB_CopyLocationObj(top.location);
+var WB_wombat_self_location = WB_CopyLocationObj(self.location);
+var WB_wombat_opener_location = (window.opener ? WB_CopyLocationObj(window.opener.location) : null);
+
+	
+</script>
+
+<!--
+End of EscapeHatch.jsp output
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><title>
+     O'Neill '08 for Congress 
+</title><link rel="stylesheet" type="text/css" href="http://wayback.archive-it.org/1201/20081025142138cs_/http://www.oneill08.com/Styles/Water.css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://wayback.archive-it.org/1201/20081025142138cs_/http://www.oneill08.com/Websites/oneill08/templates/oneillTheme/styles/style.css" /><link rel="stylesheet" type="text/css" href="http://wayback.archive-it.org/1201/20081025142138cs_/http://www.oneill08.com/Websites/oneill08/templates/oneillTheme/styles/print.css" media="print" /><meta name="Copyright" content="Copyright 2007" /><link rel="Shortcut Icon" type="image/x-icon" href="http://wayback.archive-it.org/1201/20081025142138im_/http://www.oneill08.com/Websites/oneill08/templates/oneillTheme/favicon.ico" />
+<!--[if lte IE 6]>
+<script type="text/javascript" src="/Websites/oneill08/templates/oneillTheme/scripts/supersleight-min.js"></script>
+ <![endif]-->
+</head>
+<body>
+<!--
+     FILE ARCHIVED ON 14:21:38 Oct 25, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 1:11:23 Aug 15, 2011.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+	urlKey(oneill08.com/homepage)
+-->
+<style type="text/css">
+#wm-disclaim {
+display:none;
+line-height:normal !important;
+border:1px solid #000 !important;
+padding:5px !important;
+position:relative !important;
+z-index:99999 !important;
+color:#000 !important;
+background-color:lightYellow !important;
+font-size:medium !important;
+font-family:sans-serif !important;
+text-align:center !important;
+}
+
+#wm-disclaim a {
+color:#00f !important;
+text-decoration:underline !important;
+font-size:medium !important;
+}
+
+#wm-disclaim a:hover {
+background-color: transparent !important;
+}
+
+#wm-disclaim-hide {
+float:right !important;
+margin:0 0 5px 5px !important;
+border:1px solid #ccc !important;
+padding:1px 5px !important;
+cursor:default !important;
+font-size:x-small !important;
+font-weight:bold !important;
+color:#666 !important;
+}
+#wm-disclaim-hide:hover {
+border:1px outset #ccc !important;
+}
+#wm-disclaim-hide:focus, #wm-disclaim-hide:active {
+border:1px inset #ccc !important;
+}
+
+#wm-disclaim-img {
+margin-top: -8px !important;
+float: left !important;
+vertical-align:middle !important;
+padding: 0px !important;
+}
+</style>
+<div id="wm-disclaim" dir="ltr">
+<div id="wm-disclaim-hide" onclick="document.getElementById('wm-disclaim').style.display='none'">
+hide
+</div>
+
+You are viewing an archived web page, collected at the request of Oberlin College & Northwestern University using <a href="http://www.archive-it.org/">Archive-It</a>. This page was captured on 14:21:38 Oct 25, 2008, and is part of the <a href="http://www.archive-it.org/collections/1201">US House Candidates October 2008 (New Jersey to Pennsylvania)</a> collection. The information on this web page may be out of date. See <a href="http://wayback.archive-it.org/1201/*/http://www.oneill08.com/homepage">All versions</a> of this archived page. 
+	
+
+<script type="text/javascript">
+    //lazily loading AIT metadata link generation script
+    var lazyLoader = function(evt) {document.getElementById('lazyScript').src = 'http://archive-it.org/seam/resource/docMetadataJs?collectionId=1201&date=20081025142138&url=http%3A%2F%2Fwww.oneill08.com%2Fhomepage';};
+    //ie8 and below do not support addEventListener
+    if(navigator.appName.indexOf('MSIE 7') > 0){ 
+	//alert("msie");
+    }
+    
+    if(window.addEventListener){
+	window.addEventListener("load", lazyLoader,true);		
+    }else if(window.attachEvent){
+	window.attachEvent("onload", lazyLoader);
+    }
+</script>
+<script id="lazyScript" type="text/javascript"></script> 
+<span id="aitDiv"></span>
+</div> 
+
+<script type="text/javascript" src="http://wayback.archive-it.org/1201/js/disclaim-element.js"></script>
+<script type="text/javascript">
+  var disclaimBanner = document.getElementById("wm-disclaim");
+  if(disclaimBanner != null) {
+    disclaimElement(disclaimBanner);
+  }
+</script>
+<form name="frm" method="post" action="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/homepage" id="frm" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWAgIDD2QWBgICD2QWAgIBD2QWAgICDw8WAh4HVmlzaWJsZWhkZAIGD2QWAgIED2QWAgICDw8WAh8AaGRkAggPZBYCAgEPZBYCAgIPDxYCHwBoZGRklWywUJKLK/eecy2ZbpZhqyvDsU0=" />
+</div>
+
+
+<script src="http://wayback.archive-it.org/1201/20081025142138js_/http://www.oneill08.com/ScriptResource.axd?d=aNVATBalmB-LriMzKbkKgmGja3PY-cf_USVJkvCncvu0nmUNIAzbQLKyFujiq2wa0&t=633049125920000000" type="text/javascript"></script>
+
+<div id="body">
+	<div id="frame">
+		<div id="header">
+			<div id="header-left">
+				<div id="logo">
+					<a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/homepage"><img src="http://wayback.archive-it.org/1201/20081025142138im_/http://www.oneill08.com/Websites/oneill08/templates/oneillTheme/images/logo.gif" alt="O'Neill for Congress - '08" longdesc="O'Neill for Congress - 2008" border="0" /></a>
+				</div>
+			</div>
+			<div id="header-right">
+				<div id="signup">
+				
+
+
+
+
+
+<iframe height=65 width=290 marginheight=0 marginwidth=0 frameborder=no scrolling=no src="http://wayback.archive-it.org/1201/20081025142138/http://www.inhomeelectronics.com/oneil.aspx"></iframe>
+				</div>
+				<div id="donate">
+					
+<!-- Start_Content_148578 -->
+
+
+
+<div class="element" id="element148578_93214">
+
+<div class="textElement">
+    		<a href="http://wayback.archive-it.org/1201/20081025142138/https://secure.actblue.com/contribute/entity/18159">
+				<img src="http://wayback.archive-it.org/1201/20081025142138im_/http://www.oneill08.com/Websites/oneill08/Images/Donate.jpg" border="0" />
+		</a>
+
+</div>
+</div>
+
+<!-- End_Content_148578 -->
+
+
+				</div>
+				<div class="clear"></div>
+				<div id="nav">
+					<ul class="globalRootMenu">
+<li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/meet-bill">Meet Bill</a></li>
+<li class="hasChildren"><a class="" href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/newsroom2">Newsroom</a></li>
+<li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/issues1">Issues</a></li>
+<li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/endorsements1">Endorsements</a></li>
+<li class="hasChildren"><a class="" href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/get-involved1">Get Involved</a></li>
+<li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.blogspot.com/">Blog</a></li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<hr class="hide" />
+		<div id="container">
+			<div id="Col1">
+				<div class="col1padding">
+					<div id="latest">
+						
+<!-- Start_Content_148262 -->
+
+<div id="Latest_1_pnlTitle" class="container">
+     
+	<h1 class="title">
+		Latest</h1>
+
+</div>
+
+<div class="element" id="element148262_93214">
+
+<div class="textElement">
+    <p> </p>
+<p> </p>
+<ul>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/oneill-continues-to-raise-money-at-record-pace">O'Neill continues<br />
+    to raise money at<br />
+    record pace</a><span style="color: rgb(0, 0, 0);">, <br />
+    10/15/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/radio2">New radio ad</a><span style="color: rgb(0, 0, 0);">:<br />
+    What would you <br />
+    do for $1 million?</span> </li>
+    <li><a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://www.ohio.com/editorial/opinions/30553914.html">Akron Beacon<br />
+    Journal</a><span style="color: rgb(0, 0, 0);">: LaTourette<br />
+    avoided "tough call"<br />
+    to take "the easy path"<br />
+    on bailout, 10/7/08</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">O'Neill to<br />
+    LaTourette:</span><br />
+    <a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/stop-political-games-on-bailout">Stop the Political<br />
+    Games on Bailout</a><span style="color: rgb(0, 0, 0);">,<br />
+    10/2/08</span> </li>
+    <li><a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://www.time.com/time/nation/article/0,8599,1846068,00.html">Time Mag</a><span style="color: rgb(0, 0, 0);">: <br />
+    LaTourette <br />
+    'vulnerable' <br />
+    because of <br />
+    foreclosure <br />
+    crisis, 10/1/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.ohio.com/editorial/opinions/29935724.html" target="_blank">LaTourette a <br />
+    'Profile in <br />
+    Cowardice,"</a><br />
+    <span style="color: rgb(0, 0, 0);">Akron Beacon<br />
+    Journal, 9/30/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.cleveland.com/editorials/plaindealer/index.ssf?/base/opinion/1222763472174910.xml&coll=2" target="_blank">Plain Dealer</a>: <br />
+    <span style="color: rgb(0, 0, 0);">
+    LaTourette joins<br />
+    'gutless wall of <br />
+    shame,' 9/30/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/the-smell-test">New radio ad</a> <span style="color: rgb(0, 0, 0);">calls<br />
+    LaTourette out for <br />
+    role in financial meltdown,<br />
+    9/24/08</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">O'Neill to LaTourette:</span><br />
+    <a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/give-the-money-back">Give the Money Back</a><span style="color: rgb(0, 0, 0);">,<br />
+    9/24/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/oneill-on-bailout">O'Neill on Bailout</a><span style="color: rgb(0, 0, 0);">:</span><br />
+    <span style="color: rgb(0, 0, 0);">'Protect Taxpayers<br />
+    First,' 9/23/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/radio2">O'Neill Goes Up</a> <span style="color: rgb(0, 0, 0);">on<br />
+    Radio, 9/22/08</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.ohio.com/news/ap?articleID=818494&c=y" target="_blank">Energy Central  to NE <br />
+    Ohio Congressional <br />
+    Race</a><span style="color: rgb(0, 0, 0);">, 9/22/08 <br />
+    [Associated Press]</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/factcheck-latourette-on-wcpn">Fact Check</a>:<br />
+    <span style="color: rgb(0, 0, 0);">
+    LaTourette's <br />
+    Attacks on WCPN,<br />
+    9/17/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/latourette-votes-with-big-oil">LaTourette Votes <br />
+    With Big Oil</a><span style="color: rgb(0, 0, 0);">...<br />
+    Again, 9/17/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.wcpn.org/index.php/WCPN/soi/14359/" target="_blank">TUNE IN</a>: <span style="color: rgb(0, 0, 0);">O'Neill <br />
+    &amp; LaTourette<br />
+    on 'Sound of Ideas,'<br />
+    9/17/08 (WCPN)</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">O'Neill: </span><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/latourette-role-in-economic-meltdown">LaTourette<br />
+    Must Own Up</a> <span style="color: rgb(0, 0, 0);">to <br />
+    Role in Financial<br />
+    Meltdown, 9/16/08<br />
+    (<a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/latourette-banking-industry-facts">Fact Sheet</a>)<br />
+    </span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/september11th">O'Neill Remembers</a>,<br />
+    <span style="color: rgb(0, 0, 0);">Honors Victims of <br />
+    September 11th,<br />
+    9/11/08</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">The Point:</span> <a href="http://wayback.archive-it.org/1201/20081025142138/http://politics.ohio.com/2008/09/04/why-bill-oneill-can-win-oh-14/" target="_blank">Why Bill<br />
+    O'Neill Can Win</a><span style="color: rgb(0, 0, 0);"> in <br />
+    OH-14, 9/4/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/viagra-caribou">Viagra, Caribou and<br />
+    Steve LaTourette</a><span style="color: rgb(0, 0, 0);"> - <br />
+    What?, 9/4/08</span><br />
+    <span style="color: rgb(0, 0, 0);">[</span><a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://www.youtube.com/watch?v=4gEmHRGJjPI">Video</a><span style="color: rgb(0, 0, 0);">]</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">National race tracker:</span><br />
+    <a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://www.cqpolitics.com/wmspage.cfm?docID=weeklyreport-000002942033">LaTourette among<br />
+    vulernable Republicans</a><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 0);"><br />
+    8/28/08 [CQ]</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">Trumbull Township<br />
+    Association </span><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/endorsements1">Endorses</a><br />
+    <span style="color: rgb(0, 0, 0);">
+    O'Neill, 8/28/08</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/adventures-of-pander-bear">Introducing Pander<br />
+    Bear</a> <span style="color: rgb(0, 0, 0);">[VIDEO], <br />
+    8/27/08</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">O'Neill Campaign</span><br />
+    <a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/lucky-hired">Hires Cocker <br />
+    Spaniel</a><span style="color: rgb(0, 0, 0);">, 8/26/08<br />
+    [<a href="http://wayback.archive-it.org/1201/20081025142138/http://oneill08.blogspot.com/2008/08/newest-member-of-oneill-campaign.html">Photo</a>]<br />
+    </span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/remembering-tubbs-jones">O'Neill Remembers</a><br />
+    <span style="color: rgb(0, 0, 0);">Tubbs Jones, 8/20/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/tubbs-jones-hospitalized">O'Neill's Statement</a><br />
+    <span style="color: rgb(0, 0, 0);">on Tubbs Jones,<br />
+    8/20/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.news-herald.com/articles/2008/08/19/news/elections/doc48aa293445520721648598.txt" target="_blank">O'Neill, LaTourette<br />
+    partake in joint<br />
+    interview</a><span style="color: rgb(0, 0, 0);">, 8/19/08<br />
+    [News-Herald]</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/social-security-pledge">O'Neill Pledges to<br />
+    Protect Social<br />
+    Security</a> <span style="color: rgb(0, 0, 0);">on 73rd<br />
+    Anniv., 8/14/08</span> </li>
+    <li><a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://www.openleft.com/showDiary.do?diaryId=7432">Health Care Hero</a><br />
+    <span style="color: rgb(0, 0, 0);">in Ohio's 14th, <br />
+    8/10/08 [Open Left]</span><br />
+    <a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/oil-companies-record-profits">O'Neill blasts oil<br />
+    companies' record<br />
+    profits</a><span style="color: rgb(0, 0, 0);">, 7/31/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/bush-fundraiser">Bush holds fundraiser <br />
+    with LaTourette</a>,<br />
+    <span style="color: rgb(0, 0, 0);">7/29/08</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/debate-challenge" target="_blank">O'Neill challenges<br />
+    LaTourette</a> <span style="color: rgb(0, 0, 0);">to energy<br />
+    debate, 7/18/08 [<a href="http://wayback.archive-it.org/1201/20081025142138/http://www.youtube.com/watch?v=YnsUtQtXIcI&eurl" target="_blank">video</a>]</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">O'Neill Has</span> <a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/oneill-best-quarter-yet" target="_blank">Best <br />
+    Fundraising Quarter<br />
+    Yet</a><span style="color: rgb(0, 0, 0);">, 7/15/08</span> </li>
+    <li><a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://oneill08.com/Websites/oneill08/Images/newsheraldoped071208.jpg"></a><a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://www.news-herald.com/site/news.cfm?newsid=19854567&BRD=1698&PAG=461&dept_id=220548&rfi=6"></a><a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://oneill08.com/Websites/oneill08/Images/newsheraldoped071208.jpg">O'Neill on Energy</a>:<br />
+    <span style="color: rgb(0, 0, 0);">'Lead, follow or<br />
+    get out of the way,'<br />
+    <em>News-Herald</em>, 7/12/08</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">LaTourette plan: </span><br />
+    <a href="http://wayback.archive-it.org/1201/20081025142138/http://oneill08.publishpath.com/rejected-by-nearly-everyone">Rejected by nearly<br />
+    everyone</a>, <span style="color: rgb(0, 0, 0);">7/11/08</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://oneill08.publishpath.com/Websites/oneill08/Images/sun_news_editorial_071008.jpg" target="_blank">Sun Newspapers</a>:<br />
+    <span style="color: rgb(0, 0, 0);">'Instead of subsidies,<br />
+    it's time for change,'<br />
+    7/10/08</span> </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.news-herald.com/site/news.cfm?newsid=19842019&BRD=1698&PAG=461&dept_id=220548&rfi=6" target="_blank">News Herald says <br />
+    LaTourette gas plan</a> <br />
+    <span style="color: rgb(0, 0, 0);">'panders,' 'chokes on <br />
+    fumes,' 7/10/08</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/oneill-slams-latourette-gas-price-proposal">O'Neill Slams LaTourette's<br />
+    Gas Proposal </a><span style="color: rgb(0, 0, 0);">as 'Taxpayer-<br />
+    Subsidized Profits for Oil<br />
+    Companies,' 7/2/08</span> </li>
+    <li><span style="color: rgb(0, 0, 0);">Democracy Corps<br />
+    lists OH-14 among<br />
+    top races (</span><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.democracycorps.com/strategy/2008/06/another-congressional-wave-election/" target="_blank">Report</a><span style="color: rgb(0, 0, 0);">)</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/latourettes-car">O'Neill calls on<br />
+    LaTourette</a> <span style="color: rgb(0, 0, 0);">to stop<br />
+    billing us for his car <br />
+    and gas, 6/2/08</span><br />
+    <span style="color: rgb(0, 0, 0);">
+    (</span><span style="color: rgb(0, 0, 255);"><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.cleveland.com/news/plaindealer/index.ssf?/base/news/1212395526122750.xml&coll=2&thispage=1" target="_blank">Plain Dealer</a></span> <span style="color: rgb(0, 0, 0);">report)</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/pumping-gas">O'Neill challenges <br />
+    LaTourette</a> <span style="color: rgb(0, 0, 0);">on gas<br />
+    prices, 5/29/08</span><br />
+    <span style="color: rgb(0, 0, 0);">
+    (</span><span style="color: rgb(0, 0, 255);"><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.wkyc.com/news/local/news_article.aspx?storyid=90515&catid=45" target="_blank">WKYC</a></span> <span style="color: rgb(0, 0, 0);">story)</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/newsroom2/Key/Content/ContentID/148262/PageContentID/primary-thanks">'Landslide' Victory</a>,<br />
+    <span style="color: rgb(0, 0, 0);">
+    3/5/08
+    </span></li>
+    <li><span style="color: rgb(0, 0, 0);">"LaTourette's toughest<br />
+    general election fight<br />
+    in years," 3/5/08</span><br />
+    (<a target="_blank" href="http://wayback.archive-it.org/1201/20081025142138/http://www.ohio.com/news/ap?articleID=423091&c=y">Associated Press</a>)
+    </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/sun-newspapers">Endorsed <br />
+    by the Sun <br />
+    Newspapers</a>,<br />
+    <span style="color: rgb(0, 0, 0);">
+    2/28/08</span></li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/newsroom2/Key/Content/ContentID/148262/PageContentID/record">Campaign Breaks <br />
+    Fundraising Record</a> <br />
+    <span style="color: rgb(0, 0, 0);">
+    10/1/07</span>
+    </li>
+    <li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/Websites/oneill08/Images/NYT-CQ-07-18-2007.pdf">Nat'l Dems Tout O'Neill</a> <br />
+    <span style="color: rgb(0, 0, 0);">
+    7/18/07</span> </li>
+</ul>
+<p></p>
+
+</div>
+</div>
+
+<!-- End_Content_148262 -->
+
+<!-- Start_Content_149236 -->
+
+
+
+<div class="element" id="element149236_93214">
+
+<div class="textElement">
+    
+		<p>&nbsp;</p>
+<a href="http://wayback.archive-it.org/1201/20081025142138/http://www.facebook.com/group.php?gid=2526705752">
+<img src="http://wayback.archive-it.org/1201/20081025142138im_/http://www.oneill08.com/Websites/oneill08/Images/facebook.jpg" border="0" />
+</a>
+<br />
+<a href="http://wayback.archive-it.org/1201/20081025142138/http://www.facebook.com/group.php?gid=2526705752">O'Neill on Facebook</a>
+<br />
+<a href="http://wayback.archive-it.org/1201/20081025142138/http://www.flickr.com/photos/oneill08">
+<img src="http://wayback.archive-it.org/1201/20081025142138im_/http://www.oneill08.com/Websites/oneill08/Images/flickr.jpg" border="0" />
+</a>
+<br />
+<a href="http://wayback.archive-it.org/1201/20081025142138/http://www.flickr.com/photos/oneill08">O'Neill on Flickr</a>
+<p><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.youtube.com/user/oneillforcongress"><img src="http://wayback.archive-it.org/1201/20081025142138im_/http://www.oneill08.com/Websites/oneill08/Images/youtube.jpg" border="0" /><br />
+O'Neill on YouTube<br />
+</a></p>
+
+</div>
+</div>
+
+<!-- End_Content_149236 -->
+
+
+					</div>
+				</div><!-- end col1padding !-->
+			</div>
+			<div id="Col2">
+				<div id="mainimage">
+					
+<!-- Start_Content_147004 -->
+
+
+
+<div class="element" id="element147004_93214">
+
+<div class="textElement">
+    <object width="505" height="333" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+<param name="Movie" value="/Websites/oneill08/Images/O'Neill_flash_sep08.swf">
+<param name="play" value="true">
+<param name="quality" value="high">
+<param name="wmode" value="transparent">
+<param name="loop" value="false">
+<param name="menu" value="false"><embed src="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/Websites/oneill08/Images/O%27Neill_flash_sep08.swf" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" wmode="transparent" loop="false" menu="false" height="333" width="505"></object><br />
+
+</div>
+</div>
+
+<!-- End_Content_147004 -->
+
+
+				</div>
+				<div class="col2padding">
+					<div id="maincontent">
+						
+<!-- Start_Content_147013 -->
+
+<div id="MainContent_3_pnlTitle" class="container">
+     
+	<h1 class="title">
+		A Welcome Message from Bill</h1>
+
+</div>
+
+<div class="element" id="element147013_93214">
+
+<div class="textElement">
+    
+		<p>Now is the time. <br />
+<br />
+Everywhere I go the past few months I’ve
+met folks who are tired of the way Washington does business. They’re
+tired of the leaders we send to Congress talking a good game, but
+leaving Northeast Ohio behind when push comes to shove. And most of all
+they’re tired of watching the nightly news and seeing their country
+continue to head in the wrong direction.<br />
+<br />
+I’m running to change all that. <br />
+<br />
+The
+people of Northeast Ohio deserve a congressman who will fight for them
+and will never forget that what’s on the minds of everyday people back
+at home is more important than the agenda of any political party or
+talking heads inside the Beltway.<br />
+<br />
+I’m running because bringing change to Washington isn’t going to happen unless we change the people we send there.<br />
+<br />
+And
+I need your help. Please sign up to join the campaign and find out how
+you can help make this change. Take a minute to read about me and where
+I stand, and – most importantly – let me know what’s on your mind. <br />
+<br />
+My best, </p>
+<p><img src="http://wayback.archive-it.org/1201/20081025142138im_/http://www.oneill08.com/Websites/oneill08/Images/BillSig.jpg" /><br />
+<br />
+</p>
+
+</div>
+</div>
+
+<!-- End_Content_147013 -->
+
+
+					</div>
+					<div id="signature"></div>
+				</div><!-- end col2padding -->
+			</div>
+			<hr class="hide" />
+		</div><!-- end container !-->
+		<div id="Col3">
+			<div class="col3padding">
+				<!--<div id="judge"></div>-->
+				<div id="events">
+					
+
+				</div><!-- end events !-->
+					<div id="date">
+						<script type="text/javascript">
+							var m=new Date();
+							var d=new Date();
+							var month=new Array(12);
+							month[0]="January";
+							month[1]="February";
+							month[2]="March";
+							month[3]="April";
+							month[4]="May";
+							month[5]="June";
+							month[6]="July";
+							month[7]="August";
+							month[8]="September";
+							month[9]="October";
+							month[10]="November";
+							month[11]="December";
+							document.write("<div class='month'>" + month[d.getMonth()] + "</div>" + "<div class='day'>" + d.getDate() + "</div>");
+						</script>
+						<p><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/events-calendar">view events calendar</a></p>
+					</div>
+                    
+                <div><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/issues1" title="Issues"><img src="http://wayback.archive-it.org/1201/20081025142138im_/http://www.oneill08.com/Websites/oneill08/templates/oneillTheme/images/empty.gif" alt="Issues" width="150" height="150" border="0" /></a></div>
+					
+			</div><!-- end padding !-->
+		</div>
+		<hr class="hide" />
+		<div id="footer">
+			<div class="nav">
+				<ul class="globalRootMenu">
+<li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/meet-bill">Meet Bill</a></li>
+<li class="hasChildren"><a class="" href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/newsroom2">Newsroom</a></li>
+<li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/issues1">Issues</a></li>
+<li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/endorsements1">Endorsements</a></li>
+<li class="hasChildren"><a class="" href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/get-involved1">Get Involved</a></li>
+<li><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.blogspot.com/">Blog</a></li>
+</ul>
+
+			</div>
+			<p><a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/contact-us" color="#ffffff">Contact Us</a> | <a href="http://wayback.archive-it.org/1201/20081025142138/http://www.oneill08.com/privacy-policy" color="#ffffff">Privacy Policy</a> </p><br>
+<div class="container"><p>Paid for by O'Neill for Congress</p></div>
+<p>Stephen G. Thomas, Treasurer P.O. Box 601 Chagrin Falls, OH 44022</p>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 14:21:38 Oct 25, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 1:11:23 Aug 15, 2011.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+User-agent: *
+Allow: /2217/
+Disallow: /
+Crawl-delay: 10

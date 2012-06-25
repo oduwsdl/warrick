@@ -1,0 +1,63 @@
+Logging output to MAKEFILE_LOGFILE.log
+
+in directory: /home/jbrunelle/public_html/wsdl/warrick/warrick
+
+Warrick version 2.0.0 by Frank McCown, adapted by Justin F. Brunelle
+PID = 19174
+Machine name = ws-dl-03
+
+Finding resources closest to Thu, 02 Aug 2007 04:00:00 GMT
+
+Setting up: Download to directory: MAKEFILE
+
+not using input file...
+
+Getting out of the get_memento function with http://www.cs.odu.edu/
+
+now dir is /home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE
+
+Host comparison: index.html vs cs.odu.edu
+
+
+
+removing duplicate paths 1: index.html =>targetpath: index.html
+
+
+
+ mcurling: /home/jbrunelle/public_html/wsdl/warrick/warrick//mcurl.pl -D "/home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE/logfile.o"  -dt "Thu, 02 Aug 2007 04:00:00 GMT"  -tg "http://mementoproxy.cs.odu.edu/aggr/timegate" -L -o "/home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE/index.html" "http://www.cs.odu.edu/"
+
+Reading logfile: /home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE/logfile.o
+
+
+To stats http://www.cs.odu.edu/ => Location: http://api.wayback.archive.org/memento/20070719204933/http://www.cs.odu.edu/ => /home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE/index.html --> stat IA
+
+Search HTML resource /home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE/index.html for links to other missing resources...
+Since this is a non-recursive run, doing a special extraction.
+Removing IA Branding of /home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE/index.html!!
+
+Removing webcitation junk from the beginning
+
+Removing google junk
+
+Removing yahoo & bing junk
+
+Removing other? junk
+
+Starting recovery at position 0 of 26
+
+My frontier at 0: http://www.cs.odu.edu/files/style.css
+Getting out of the get_memento function with http://www.cs.odu.edu/files/style.css
+
+My memento to get: |http://www.cs.odu.edu/files/style.css|
+
+Host comparison: cs.odu.edu vs cs.odu.edu
+
+
+
+removing duplicate paths 1: files/style.css =>targetpath: files/style.css
+
+Making directory .//files
+
+
+ mcurling: /home/jbrunelle/public_html/wsdl/warrick/warrick//mcurl.pl -D "/home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE/logfile.o"  -dt "Thu, 02 Aug 2007 04:00:00 GMT"  -tg "http://mementoproxy.lanl.gov/aggr/timegate" -L -o "/home/jbrunelle/public_html/wsdl/warrick/warrick/MAKEFILE/files/style.css" "http://www.cs.odu.edu/files/style.css"
+

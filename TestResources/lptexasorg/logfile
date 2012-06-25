@@ -1,0 +1,34 @@
+--22:03:33--  http://api.wayback.archive.org/memento/20051215194945/http://www.mymanmitch.com/aboutmitch.asp
+Resolving api.wayback.archive.org... 207.241.226.201
+Connecting to api.wayback.archive.org|207.241.226.201|:80... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Server: Apache-Coyote/1.1
+  Memento-Datetime: Thu, 15 Dec 2005 19:49:45 GMT
+  Link: <http://api.wayback.archive.org/list/timebundle/http://www.mymanmitch.com/aboutmitch.asp>;rel="timebundle", <http://www.mymanmitch.com/aboutmitch.asp>;rel="original", <http://api.wayback.archive.org/memento/20051215194945/http://www.mymanmitch.com/aboutmitch.asp>;rel="last memento"; datetime="Thu, 15 Dec 2005 19:49:45 GMT", <http://api.wayback.archive.org/memento/20031017021936/http://www.mymanmitch.com/aboutmitch.asp>;rel="first memento"; datetime="Fri, 17 Oct 2003 02:19:36 GMT", <http://api.wayback.archive.org/memento/20051029235126/http://www.mymanmitch.com/aboutmitch.asp>;rel="prev memento"; datetime="Sat, 29 Oct 2005 23:51:26 GMT" , <http://api.wayback.archive.org/list/timemap/link/http://www.mymanmitch.com/aboutmitch.asp>;rel="timemap"; type="application/link-format",<http://api.wayback.archive.org/memento/timegate/http://www.mymanmitch.com/aboutmitch.asp>;rel="timegate"
+  X-Archive-Guessed-Charset: cp1252
+  X-Archive-Orig-Connection: Keep-Alive
+  X-Archive-Orig-Content-Length: 19889
+  X-Archive-Orig-Set-Cookie: ASPSESSIONIDCSTTBQRA=NJFHEPADMBHHOMGIKNDIEAIM; path=/
+  X-Archive-Orig-Content-Type: text/html
+  X-Archive-Orig-X-Powered-By: ASP.NET
+  X-Archive-Orig-Cache-control: private
+  X-Archive-Orig-Server: Microsoft-IIS/5.0
+  X-Archive-Orig-Date: Thu, 15 Dec 2005 19:49:45 GMT
+  Content-Type: text/html;charset=cp1252
+  Content-Length: 20602
+  Date: Mon, 15 Aug 2011 02:03:33 GMT
+  X-Varnish: 224322494
+  Age: 0
+  Via: 1.1 varnish
+  Connection: keep-alive
+  X-Cache: MISS
+Length: 20602 (20K) [text/html]
+Saving to: `/home/jbrunelle/public_html/wsdl/warrick/warrick/httpwwwlptexasorg2006helm21_57_20_14_7_111_0_225_1/mymanmitch.com/aboutmitch.asp'
+
+     0K .......... ..........                                 100%  116K=0.2s
+
+22:03:33 (116 KB/s) - `/home/jbrunelle/public_html/wsdl/warrick/warrick/httpwwwlptexasorg2006helm21_57_20_14_7_111_0_225_1/mymanmitch.com/aboutmitch.asp' saved [20602/20602]
+
+FINISHED --22:03:33--
+Downloaded: 1 files, 20K in 0.2s (116 KB/s)

@@ -1,0 +1,42 @@
+Warrick
+
+Version 2.0
+
+"The website reconstructor"
+
+Created by Frank McCown at Old Dominion University - 2006
+
+Modified by Justin F. Brunelle at Old Dominion University - 2011
+jbrunelle@cs.odu.edu
+
+For instructions on installing and running Warrick, please see:
+http://warrick.cs.odu.edu/
+
+or run `perl warrick.pl --help`
+
+This version of Warrick has been redesigned to reconstruct lost
+websites from the Web Infrastructure using Memento. (For more
+information on Memento, please visit http://www.mementoweb.org/.)
+
+**************************************************************
+
+We want to know if you have if you have used Warrick to 
+reconstruct your lost website.  Please e-mail me at jbrunelle@cs.odu.edu
+
+**************************************************************
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+The GNU General Public License can be seen here:
+http://www.gnu.org/copyleft/gpl.html
+
+-----------------------------------------------------------
+

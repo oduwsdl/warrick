@@ -1,0 +1,1696 @@
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:44:06 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/>;rel="timebundle",<http://www.cs.odu.edu/>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/19970102130137/http://cs.odu.edu/>;rel="first memento";datetime="Thu, 02 Jan 1997 13:01:37 GMT",<http://api.wayback.archive.org/memento/20110720015831/http://cs.odu.edu/>;rel="last memento";datetime="Wed, 20 Jul 2011 01:58:31 GMT",<http://api.wayback.archive.org/memento/20070718235709/http://www.cs.odu.edu/>;rel="prev memento";datetime="Wed, 18 Jul 2007 23:57:09 GMT",<http://api.wayback.archive.org/memento/20070826105518/http://www.cs.odu.edu/>;rel="next memento";datetime="Sun, 26 Aug 2007 10:55:18 GMT",<http://api.wayback.archive.org/memento/20070719204933/http://www.cs.odu.edu/>;rel="memento";datetime="Thu, 19 Jul 2007 20:49:33 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070719204933/http://www.cs.odu.edu/
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Thu, 19 Jul 2007 20:49:33 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/>; rel="timebundle", <http://www.cs.odu.edu/>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/>; rel="timegate", <http://api.wayback.archive.org/memento/19970102130137/http://www.cs.odu.edu/>; rel="first memento"; datetime="Thu, 02 Jan 1997 13:01:37 GMT", <http://api.wayback.archive.org/memento/20070718235709/http://www.cs.odu.edu/>; rel="prev memento"; datetime="Wed, 18 Jul 2007 23:57:09 GMT", <http://api.wayback.archive.org/memento/20070719204933/http://www.cs.odu.edu/>; rel="memento"; datetime="Thu, 19 Jul 2007 20:49:33 GMT", <http://api.wayback.archive.org/memento/20070826105518/http://www.cs.odu.edu/>; rel="next memento"; datetime="Sun, 26 Aug 2007 10:55:18 GMT", <http://api.wayback.archive.org/memento/20110720015831/http://www.cs.odu.edu/>; rel="last memento"; datetime="Wed, 20 Jul 2011 01:58:31 GMT"
+
+X-Archive-Guessed-Charset: windows-1252
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-X-Meta-GENERATOR: MSHTML 6.00.2900.2627
+
+X-Archive-Orig-X-Meta-Keywords: College of Sciences
+
+X-Archive-Orig-Client-Date: Thu, 19 Jul 2007 20:49:33 GMT
+
+X-Archive-Orig-X-Meta-Description: College of Sciences
+
+X-Archive-Orig-Link: <files/style.css>; rel="stylesheet"; title="style"; type="text/css"
+
+X-Archive-Orig-Date: Thu, 19 Jul 2007 20:49:33 GMT
+
+X-Archive-Orig-Client-Response-Num: 1
+
+X-Archive-Orig-Client-Peer: 128.82.4.2:80
+
+X-Archive-Orig-Content-Type: text/html; charset=windows-1252
+
+X-Archive-Orig-Title: Department Of Computer Science
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Client-Transfer-Encoding: chunked
+
+Content-Type: text/html;charset=windows-1252
+
+Content-Length: 50825
+
+Date: Sun, 11 Dec 2011 23:44:14 GMT
+
+X-Varnish: 1043905205
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:44:32 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/style.css>;rel="timebundle",<http://www.cs.odu.edu/files/style.css>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/style.css>;rel="timemap";type="application/link-format",<http://webcitation.org/query?id=1293668384292851>;datetime="Wed, 29 Dec 2010 19:19:44 GMT";rel="first memento",<http://webcitation.org/query?id=1300762782209853>;datetime="Mon, 21 Mar 2011 22:59:42 GMT";rel="last memento",<http://webcitation.org/query?id=1293668526970288>;datetime="Wed, 29 Dec 2010 19:22:06 GMT";rel="next memento"
+
+Location: http://webcitation.org/query?id=1293668384292851
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Date: Sun, 11 Dec 2011 23:44:32 GMT
+
+Server: Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 PHP/5.2.9
+
+X-Powered-By: PHP/5.2.9
+
+Set-Cookie: PHPSESSID=889442137cf66c8d7326cd21eac93039; path=/
+
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+Pragma: no-cache
+
+Content-Length: 734
+
+Content-Type: text/html
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:44:56 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/university.js>;rel="timebundle",<http://www.cs.odu.edu/files/university.js>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/university.js>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050523023956/http://www.cs.odu.edu/files/university.js>;rel="first memento";datetime="Mon, 23 May 2005 02:39:56 GMT",<http://api.wayback.archive.org/memento/20110720020607/http://www.cs.odu.edu/files/university.js>;rel="last memento";datetime="Wed, 20 Jul 2011 02:06:07 GMT",<http://api.wayback.archive.org/memento/20070707024028/http://www.cs.odu.edu/files/university.js>;rel="prev memento";datetime="Sat, 07 Jul 2007 02:40:28 GMT",<http://api.wayback.archive.org/memento/20100616114042/http://www.cs.odu.edu/files/university.js>;rel="next memento";datetime="Wed, 16 Jun 2010 11:40:42 GMT",<http://api.wayback.archive.org/memento/20070711201802/http://www.cs.odu.edu/files/university.js>;rel="memento";datetime="Wed, 11 Jul 2007 20:18:02 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070711201802/http://www.cs.odu.edu/files/university.js
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Wed, 11 Jul 2007 20:18:02 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/university.js>; rel="timebundle", <http://www.cs.odu.edu/files/university.js>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/university.js>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/university.js>; rel="timegate", <http://api.wayback.archive.org/memento/20050523023956/http://www.cs.odu.edu/files/university.js>; rel="first memento"; datetime="Mon, 23 May 2005 02:39:56 GMT", <http://api.wayback.archive.org/memento/20070707024028/http://www.cs.odu.edu/files/university.js>; rel="prev memento"; datetime="Sat, 07 Jul 2007 02:40:28 GMT", <http://api.wayback.archive.org/memento/20070711201802/http://www.cs.odu.edu/files/university.js>; rel="memento"; datetime="Wed, 11 Jul 2007 20:18:02 GMT", <http://api.wayback.archive.org/memento/20100616114042/http://www.cs.odu.edu/files/university.js>; rel="next memento"; datetime="Wed, 16 Jun 2010 11:40:42 GMT", <http://api.wayback.archive.org/memento/20110720020607/http://www.cs.odu.edu/files/university.js>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:06:07 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 1604
+
+X-Archive-Orig-Content-Type: application/x-javascript
+
+X-Archive-Orig-ETag: "ad5a-644-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Wed, 11 Jul 2007 20:18:02 GMT
+
+Content-Type: application/x-javascript
+
+Content-Length: 1604
+
+Date: Sun, 11 Dec 2011 23:44:56 GMT
+
+X-Varnish: 1043954233
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:45:14 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/mm_menu.js>;rel="timebundle",<http://www.cs.odu.edu/files/mm_menu.js>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/mm_menu.js>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050523023912/http://www.cs.odu.edu/files/mm_menu.js>;datetime="Mon, 23 May 2005 02:39:12 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20110720015822/http://www.cs.odu.edu/files/mm_menu.js>;datetime="Wed, 20 Jul 2011 01:58:22 GMT";rel="last memento",<http://api.wayback.archive.org/memento/20070707024335/http://www.cs.odu.edu/files/mm_menu.js>;datetime="Sat, 07 Jul 2007 02:43:35 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20100616112159/http://www.cs.odu.edu/files/mm_menu.js>;datetime="Wed, 16 Jun 2010 11:21:59 GMT";rel="next memento",<http://api.wayback.archive.org/memento/20070711201838/http://www.cs.odu.edu/files/mm_menu.js>;datetime="Wed, 11 Jul 2007 20:18:38 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070711201838/http://www.cs.odu.edu/files/mm_menu.js
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Wed, 11 Jul 2007 20:18:38 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/mm_menu.js>; rel="timebundle", <http://www.cs.odu.edu/files/mm_menu.js>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/mm_menu.js>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/mm_menu.js>; rel="timegate", <http://api.wayback.archive.org/memento/20050523023912/http://www.cs.odu.edu/files/mm_menu.js>; rel="first memento"; datetime="Mon, 23 May 2005 02:39:12 GMT", <http://api.wayback.archive.org/memento/20070707024335/http://www.cs.odu.edu/files/mm_menu.js>; rel="prev memento"; datetime="Sat, 07 Jul 2007 02:43:35 GMT", <http://api.wayback.archive.org/memento/20070711201838/http://www.cs.odu.edu/files/mm_menu.js>; rel="memento"; datetime="Wed, 11 Jul 2007 20:18:38 GMT", <http://api.wayback.archive.org/memento/20100616112159/http://www.cs.odu.edu/files/mm_menu.js>; rel="next memento"; datetime="Wed, 16 Jun 2010 11:21:59 GMT", <http://api.wayback.archive.org/memento/20110720015822/http://www.cs.odu.edu/files/mm_menu.js>; rel="last memento"; datetime="Wed, 20 Jul 2011 01:58:22 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 30741
+
+X-Archive-Orig-Content-Type: application/x-javascript
+
+X-Archive-Orig-ETag: "ad4d-7815-9cea6940"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Tue, 03 Apr 2007 12:38:21 GMT
+
+X-Archive-Orig-Date: Wed, 11 Jul 2007 20:18:38 GMT
+
+Content-Type: application/x-javascript
+
+Content-Length: 30741
+
+Date: Sun, 11 Dec 2011 23:45:14 GMT
+
+X-Varnish: 1043973706
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:45:33 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/ddmenu_ddown.js>;rel="timebundle",<http://www.cs.odu.edu/files/ddmenu_ddown.js>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/ddmenu_ddown.js>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050523023943/http://www.cs.odu.edu/files/ddmenu_ddown.js>;rel="first memento";datetime="Mon, 23 May 2005 02:39:43 GMT",<http://api.wayback.archive.org/memento/20110720024034/http://www.cs.odu.edu/files/ddmenu_ddown.js>;rel="last memento";datetime="Wed, 20 Jul 2011 02:40:34 GMT",<http://api.wayback.archive.org/memento/20070707024220/http://www.cs.odu.edu/files/ddmenu_ddown.js>;rel="prev memento";datetime="Sat, 07 Jul 2007 02:42:20 GMT",<http://api.wayback.archive.org/memento/20100616113305/http://www.cs.odu.edu/files/ddmenu_ddown.js>;rel="next memento";datetime="Wed, 16 Jun 2010 11:33:05 GMT",<http://api.wayback.archive.org/memento/20070711201822/http://www.cs.odu.edu/files/ddmenu_ddown.js>;rel="memento";datetime="Wed, 11 Jul 2007 20:18:22 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070711201822/http://www.cs.odu.edu/files/ddmenu_ddown.js
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Wed, 11 Jul 2007 20:18:22 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="timebundle", <http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="timegate", <http://api.wayback.archive.org/memento/20050523023943/http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="first memento"; datetime="Mon, 23 May 2005 02:39:43 GMT", <http://api.wayback.archive.org/memento/20070707024220/http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="prev memento"; datetime="Sat, 07 Jul 2007 02:42:20 GMT", <http://api.wayback.archive.org/memento/20070711201822/http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="memento"; datetime="Wed, 11 Jul 2007 20:18:22 GMT", <http://api.wayback.archive.org/memento/20100616113305/http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="next memento"; datetime="Wed, 16 Jun 2010 11:33:05 GMT", <http://api.wayback.archive.org/memento/20110720024034/http://www.cs.odu.edu/files/ddmenu_ddown.js>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:40:34 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 5223
+
+X-Archive-Orig-Content-Type: application/x-javascript
+
+X-Archive-Orig-ETag: "ad42-1467-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Wed, 11 Jul 2007 20:18:22 GMT
+
+Content-Type: application/x-javascript
+
+Content-Length: 5223
+
+Date: Sun, 11 Dec 2011 23:45:34 GMT
+
+X-Varnish: 1043995684
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:45:56 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/spacer.gif>;rel="timebundle",<http://www.cs.odu.edu/files/spacer.gif>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/spacer.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601162310/http://www.cs.odu.edu/files/spacer.gif>;datetime="Wed, 01 Jun 2005 16:23:10 GMT";rel="first memento",<http://webcitation.org/query?id=1300762782271639>;datetime="Mon, 21 Mar 2011 22:59:42 GMT";rel="last memento",<http://api.wayback.archive.org/memento/20070612023424/http://www.cs.odu.edu/files/spacer.gif>;datetime="Tue, 12 Jun 2007 02:34:24 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20091010172643/http://www.cs.odu.edu/files/spacer.gif>;datetime="Sat, 10 Oct 2009 17:26:43 GMT";rel="next memento",<http://api.wayback.archive.org/memento/20070707023946/http://www.cs.odu.edu/files/spacer.gif>;datetime="Sat, 07 Jul 2007 02:39:46 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707023946/http://www.cs.odu.edu/files/spacer.gif
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:39:46 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/spacer.gif>; rel="timebundle", <http://www.cs.odu.edu/files/spacer.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/spacer.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/spacer.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20050601162310/http://www.cs.odu.edu/files/spacer.gif>; rel="first memento"; datetime="Wed, 01 Jun 2005 16:23:10 GMT", <http://api.wayback.archive.org/memento/20070612023424/http://www.cs.odu.edu/files/spacer.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:34:24 GMT", <http://api.wayback.archive.org/memento/20070707023946/http://www.cs.odu.edu/files/spacer.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:39:46 GMT", <http://api.wayback.archive.org/memento/20091010172643/http://www.cs.odu.edu/files/spacer.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:26:43 GMT", <http://api.wayback.archive.org/memento/20110720020451/http://www.cs.odu.edu/files/spacer.gif>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:04:51 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 43
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad57-2b-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:39:46 GMT
+
+Content-Type: image/gif
+
+Content-Length: 43
+
+Date: Sun, 11 Dec 2011 23:45:57 GMT
+
+X-Varnish: 1044021585
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:46:14 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>;rel="timebundle",<http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601155654/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>;rel="first memento";datetime="Wed, 01 Jun 2005 15:56:54 GMT",<http://api.wayback.archive.org/memento/20110720020544/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>;rel="last memento";datetime="Wed, 20 Jul 2011 02:05:44 GMT",<http://api.wayback.archive.org/memento/20070612023729/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>;rel="prev memento";datetime="Tue, 12 Jun 2007 02:37:29 GMT",<http://api.wayback.archive.org/memento/20091010173514/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>;rel="next memento";datetime="Sat, 10 Oct 2009 17:35:14 GMT",<http://api.wayback.archive.org/memento/20070707024157/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>;rel="memento";datetime="Sat, 07 Jul 2007 02:41:57 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024157/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:41:57 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="timebundle", <http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20050601155654/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="first memento"; datetime="Wed, 01 Jun 2005 15:56:54 GMT", <http://api.wayback.archive.org/memento/20070612023729/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:37:29 GMT", <http://api.wayback.archive.org/memento/20070707024157/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:41:57 GMT", <http://api.wayback.archive.org/memento/20091010173514/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:35:14 GMT", <http://api.wayback.archive.org/memento/20110720020544/http://www.cs.odu.edu/files/gfx-logo-odu-crown.gif>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:05:44 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 1979
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad45-7bb-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:41:57 GMT
+
+Content-Type: image/gif
+
+Content-Length: 1979
+
+Date: Sun, 11 Dec 2011 23:46:15 GMT
+
+X-Varnish: 1044041792
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:46:32 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>;rel="timebundle",<http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20051221201425/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>;datetime="Wed, 21 Dec 2005 20:14:25 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20110720020532/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>;datetime="Wed, 20 Jul 2011 02:05:32 GMT";rel="last memento",<http://api.wayback.archive.org/memento/20070612023627/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>;datetime="Tue, 12 Jun 2007 02:36:27 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20091010172840/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>;datetime="Sat, 10 Oct 2009 17:28:40 GMT";rel="next memento",<http://api.wayback.archive.org/memento/20070707024505/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>;datetime="Sat, 07 Jul 2007 02:45:05 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707024505/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:45:05 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="timebundle", <http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="timegate", <http://api.wayback.archive.org/memento/20051221201425/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="first memento"; datetime="Wed, 21 Dec 2005 20:14:25 GMT", <http://api.wayback.archive.org/memento/20070612023627/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:36:27 GMT", <http://api.wayback.archive.org/memento/20070707024505/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="memento"; datetime="Sat, 07 Jul 2007 02:45:05 GMT", <http://api.wayback.archive.org/memento/20091010172840/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:28:40 GMT", <http://api.wayback.archive.org/memento/20110720020532/http://www.cs.odu.edu/files/hmenu_college_of_sciences-new.png>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:05:32 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 6444
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-ETag: "ad6e-192c-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:45:05 GMT
+
+Content-Type: image/png
+
+Content-Length: 6444
+
+Date: Sun, 11 Dec 2011 23:46:33 GMT
+
+X-Varnish: 1044060842
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:46:40 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/logo-cs.gif>;rel="timebundle",<http://www.cs.odu.edu/files/logo-cs.gif>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/logo-cs.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20051221195429/http://www.cs.odu.edu/files/logo-cs.gif>;rel="first memento";datetime="Wed, 21 Dec 2005 19:54:29 GMT",<http://api.wayback.archive.org/memento/20110720020459/http://www.cs.odu.edu/files/logo-cs.gif>;rel="last memento";datetime="Wed, 20 Jul 2011 02:04:59 GMT",<http://api.wayback.archive.org/memento/20070612023505/http://www.cs.odu.edu/files/logo-cs.gif>;rel="prev memento";datetime="Tue, 12 Jun 2007 02:35:05 GMT",<http://api.wayback.archive.org/memento/20091010173153/http://www.cs.odu.edu/files/logo-cs.gif>;rel="next memento";datetime="Sat, 10 Oct 2009 17:31:53 GMT",<http://api.wayback.archive.org/memento/20070707024354/http://www.cs.odu.edu/files/logo-cs.gif>;rel="memento";datetime="Sat, 07 Jul 2007 02:43:54 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024354/http://www.cs.odu.edu/files/logo-cs.gif
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:43:54 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/logo-cs.gif>; rel="timebundle", <http://www.cs.odu.edu/files/logo-cs.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/logo-cs.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/logo-cs.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20051221195429/http://www.cs.odu.edu/files/logo-cs.gif>; rel="first memento"; datetime="Wed, 21 Dec 2005 19:54:29 GMT", <http://api.wayback.archive.org/memento/20070612023505/http://www.cs.odu.edu/files/logo-cs.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:35:05 GMT", <http://api.wayback.archive.org/memento/20070707024354/http://www.cs.odu.edu/files/logo-cs.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:43:54 GMT", <http://api.wayback.archive.org/memento/20091010173153/http://www.cs.odu.edu/files/logo-cs.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:31:53 GMT", <http://api.wayback.archive.org/memento/20110720020459/http://www.cs.odu.edu/files/logo-cs.gif>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:04:59 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 6619
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad5c-19db-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:43:54 GMT
+
+Content-Type: image/gif
+
+Content-Length: 6619
+
+Date: Sun, 11 Dec 2011 23:46:40 GMT
+
+X-Varnish: 1044069742
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:46:58 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/header-right1.gif>;rel="timebundle",<http://www.cs.odu.edu/files/header-right1.gif>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/header-right1.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601160616/http://www.cs.odu.edu/files/header-right1.gif>;datetime="Wed, 01 Jun 2005 16:06:16 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20110720020003/http://www.cs.odu.edu/files/header-right1.gif>;datetime="Wed, 20 Jul 2011 02:00:03 GMT";rel="last memento",<http://api.wayback.archive.org/memento/20070612023746/http://www.cs.odu.edu/files/header-right1.gif>;datetime="Tue, 12 Jun 2007 02:37:46 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20091010173345/http://www.cs.odu.edu/files/header-right1.gif>;datetime="Sat, 10 Oct 2009 17:33:45 GMT";rel="next memento",<http://api.wayback.archive.org/memento/20070707024322/http://www.cs.odu.edu/files/header-right1.gif>;datetime="Sat, 07 Jul 2007 02:43:22 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707024322/http://www.cs.odu.edu/files/header-right1.gif
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:43:22 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/header-right1.gif>; rel="timebundle", <http://www.cs.odu.edu/files/header-right1.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/header-right1.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/header-right1.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20050601160616/http://www.cs.odu.edu/files/header-right1.gif>; rel="first memento"; datetime="Wed, 01 Jun 2005 16:06:16 GMT", <http://api.wayback.archive.org/memento/20070612023746/http://www.cs.odu.edu/files/header-right1.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:37:46 GMT", <http://api.wayback.archive.org/memento/20070707024322/http://www.cs.odu.edu/files/header-right1.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:43:22 GMT", <http://api.wayback.archive.org/memento/20091010173345/http://www.cs.odu.edu/files/header-right1.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:33:45 GMT", <http://api.wayback.archive.org/memento/20110720020003/http://www.cs.odu.edu/files/header-right1.gif>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:00:03 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 14114
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad71-3722-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:43:22 GMT
+
+Content-Type: image/gif
+
+Content-Length: 14114
+
+Date: Sun, 11 Dec 2011 23:46:59 GMT
+
+X-Varnish: 1044090684
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:47:17 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/lmenu_1st_resources.png>;rel="timebundle",<http://www.cs.odu.edu/files/lmenu_1st_resources.png>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/lmenu_1st_resources.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20051228174741/http://www.cs.odu.edu/files/lmenu_1st_resources.png>;rel="first memento";datetime="Wed, 28 Dec 2005 17:47:41 GMT",<http://api.wayback.archive.org/memento/20110720020437/http://www.cs.odu.edu/files/lmenu_1st_resources.png>;rel="last memento";datetime="Wed, 20 Jul 2011 02:04:37 GMT",<http://api.wayback.archive.org/memento/20070612023825/http://www.cs.odu.edu/files/lmenu_1st_resources.png>;rel="prev memento";datetime="Tue, 12 Jun 2007 02:38:25 GMT",<http://api.wayback.archive.org/memento/20091010173233/http://www.cs.odu.edu/files/lmenu_1st_resources.png>;rel="next memento";datetime="Sat, 10 Oct 2009 17:32:33 GMT",<http://api.wayback.archive.org/memento/20070707024120/http://www.cs.odu.edu/files/lmenu_1st_resources.png>;rel="memento";datetime="Sat, 07 Jul 2007 02:41:20 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024120/http://www.cs.odu.edu/files/lmenu_1st_resources.png
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:41:20 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="timebundle", <http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="timegate", <http://api.wayback.archive.org/memento/20051228174741/http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="first memento"; datetime="Wed, 28 Dec 2005 17:47:41 GMT", <http://api.wayback.archive.org/memento/20070612023825/http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:38:25 GMT", <http://api.wayback.archive.org/memento/20070707024120/http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="memento"; datetime="Sat, 07 Jul 2007 02:41:20 GMT", <http://api.wayback.archive.org/memento/20091010173233/http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:32:33 GMT", <http://api.wayback.archive.org/memento/20110720020437/http://www.cs.odu.edu/files/lmenu_1st_resources.png>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:04:37 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 3668
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-ETag: "ad5e-e54-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:41:20 GMT
+
+Content-Type: image/png
+
+Content-Length: 3668
+
+Date: Sun, 11 Dec 2011 23:47:17 GMT
+
+X-Varnish: 1044111907
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:47:24 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>;rel="timebundle",<http://www.cs.odu.edu/files/bullet_blue_triangle.gif>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20051221194348/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>;datetime="Wed, 21 Dec 2005 19:43:48 GMT";rel="first memento",<http://webcitation.org/query?id=1300762782475076>;datetime="Mon, 21 Mar 2011 22:59:42 GMT";rel="last memento",<http://api.wayback.archive.org/memento/20070612023431/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>;datetime="Tue, 12 Jun 2007 02:34:31 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20091010172612/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>;datetime="Sat, 10 Oct 2009 17:26:12 GMT";rel="next memento",<http://api.wayback.archive.org/memento/20070707023954/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>;datetime="Sat, 07 Jul 2007 02:39:54 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707023954/http://www.cs.odu.edu/files/bullet_blue_triangle.gif
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:39:54 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="timebundle", <http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20051221194348/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="first memento"; datetime="Wed, 21 Dec 2005 19:43:48 GMT", <http://api.wayback.archive.org/memento/20070612023431/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:34:31 GMT", <http://api.wayback.archive.org/memento/20070707023954/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:39:54 GMT", <http://api.wayback.archive.org/memento/20091010172612/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:26:12 GMT", <http://api.wayback.archive.org/memento/20110720020015/http://www.cs.odu.edu/files/bullet_blue_triangle.gif>; rel="last memento"; datetime="Wed, 20 Jul 2011 02:00:15 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 54
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad41-36-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:39:54 GMT
+
+Content-Type: image/gif
+
+Content-Length: 54
+
+Date: Sun, 11 Dec 2011 23:47:25 GMT
+
+X-Varnish: 1044120537
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:47:42 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/ecsbdg.jpg>;rel="timebundle",<http://www.cs.odu.edu/files/ecsbdg.jpg>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/ecsbdg.jpg>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601145617/http://www.cs.odu.edu/files/ecsbdg.jpg>;rel="first memento";datetime="Wed, 01 Jun 2005 14:56:17 GMT",<http://api.wayback.archive.org/memento/20070707024603/http://www.cs.odu.edu/files/ecsbdg.jpg>;rel="last memento";datetime="Sat, 07 Jul 2007 02:46:03 GMT",<http://api.wayback.archive.org/memento/20070707024603/http://www.cs.odu.edu/files/ecsbdg.jpg>;rel="prev memento";datetime="Sat, 07 Jul 2007 02:46:03 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024603/http://www.cs.odu.edu/files/ecsbdg.jpg
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:46:03 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/ecsbdg.jpg>; rel="timebundle", <http://www.cs.odu.edu/files/ecsbdg.jpg>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/ecsbdg.jpg>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/ecsbdg.jpg>; rel="timegate", <http://api.wayback.archive.org/memento/20070707024603/http://www.cs.odu.edu/files/ecsbdg.jpg>; rel="last memento"; datetime="Sat, 07 Jul 2007 02:46:03 GMT", <http://api.wayback.archive.org/memento/20050601145617/http://www.cs.odu.edu/files/ecsbdg.jpg>; rel="first memento"; datetime="Wed, 01 Jun 2005 14:56:17 GMT", <http://api.wayback.archive.org/memento/20070612023801/http://www.cs.odu.edu/files/ecsbdg.jpg>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:38:01 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 114828
+
+X-Archive-Orig-Content-Type: image/jpeg
+
+X-Archive-Orig-ETag: "ad68-1c08c-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:46:03 GMT
+
+Content-Type: image/jpeg
+
+Content-Length: 114828
+
+Date: Sun, 11 Dec 2011 23:47:43 GMT
+
+X-Varnish: 1044142652
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:47:53 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>;rel="timebundle",<http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20051221201514/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>;datetime="Wed, 21 Dec 2005 20:15:14 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20091010173444/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>;datetime="Sat, 10 Oct 2009 17:34:44 GMT";rel="last next memento",<http://api.wayback.archive.org/memento/20070612023559/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>;datetime="Tue, 12 Jun 2007 02:35:59 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20070707024616/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>;datetime="Sat, 07 Jul 2007 02:46:16 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707024616/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:46:16 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="timebundle", <http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="timegate", <http://api.wayback.archive.org/memento/20051221201514/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="first memento"; datetime="Wed, 21 Dec 2005 20:15:14 GMT", <http://api.wayback.archive.org/memento/20070612023559/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:35:59 GMT", <http://api.wayback.archive.org/memento/20070707024616/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="memento"; datetime="Sat, 07 Jul 2007 02:46:16 GMT", <http://api.wayback.archive.org/memento/20091010173444/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:34:44 GMT", <http://api.wayback.archive.org/memento/20100616115431/http://www.cs.odu.edu/files/rmenu_1st_upcoming_news.png>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:54:31 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 1005
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-ETag: "ad51-3ed-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:46:16 GMT
+
+Content-Type: image/png
+
+Content-Length: 1005
+
+Date: Sun, 11 Dec 2011 23:47:53 GMT
+
+X-Varnish: 1044153689
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:48:00 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>;rel="timebundle",<http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20051221210112/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>;rel="first memento";datetime="Wed, 21 Dec 2005 21:01:12 GMT",<http://api.wayback.archive.org/memento/20070707024655/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>;rel="last memento";datetime="Sat, 07 Jul 2007 02:46:55 GMT",<http://api.wayback.archive.org/memento/20070707024655/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>;rel="prev memento";datetime="Sat, 07 Jul 2007 02:46:55 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024655/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:46:55 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>; rel="timebundle", <http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>; rel="timegate", <http://api.wayback.archive.org/memento/20070707024655/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>; rel="last memento"; datetime="Sat, 07 Jul 2007 02:46:55 GMT", <http://api.wayback.archive.org/memento/20051221210112/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>; rel="first memento"; datetime="Wed, 21 Dec 2005 21:01:12 GMT", <http://api.wayback.archive.org/memento/20070612023910/http://www.cs.odu.edu/files/rmenu_1st_upcoming_events.png>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:39:10 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 1018
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-ETag: "ad53-3fa-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:46:55 GMT
+
+Content-Type: image/png
+
+Content-Length: 1018
+
+Date: Sun, 11 Dec 2011 23:48:01 GMT
+
+X-Varnish: 1044162097
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:48:08 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>;rel="timebundle",<http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20051228174112/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>;datetime="Wed, 28 Dec 2005 17:41:12 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20091010173127/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>;datetime="Sat, 10 Oct 2009 17:31:27 GMT";rel="last next memento",<http://api.wayback.archive.org/memento/20070612023632/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>;datetime="Tue, 12 Jun 2007 02:36:32 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20070707024629/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>;datetime="Sat, 07 Jul 2007 02:46:29 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707024629/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:46:29 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="timebundle", <http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="timegate", <http://api.wayback.archive.org/memento/20051228174112/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="first memento"; datetime="Wed, 28 Dec 2005 17:41:12 GMT", <http://api.wayback.archive.org/memento/20070612023632/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:36:32 GMT", <http://api.wayback.archive.org/memento/20070707024629/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="memento"; datetime="Sat, 07 Jul 2007 02:46:29 GMT", <http://api.wayback.archive.org/memento/20091010173127/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:31:27 GMT", <http://api.wayback.archive.org/memento/20100616115455/http://www.cs.odu.edu/files/rmenu_1st_featured_faculty.png>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:54:55 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 7110
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-ETag: "ad7c-1bc6-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:46:29 GMT
+
+Content-Type: image/png
+
+Content-Length: 7110
+
+Date: Sun, 11 Dec 2011 23:48:08 GMT
+
+X-Varnish: 1044171437
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:48:16 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/images/nelson.jpg>;rel="timebundle",<http://www.cs.odu.edu/images/nelson.jpg>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/images/nelson.jpg>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20070318210602/http://cs.odu.edu/images/nelson.jpg>;rel="first memento";datetime="Sun, 18 Mar 2007 21:06:02 GMT",<http://api.wayback.archive.org/memento/20070707024415/http://www.cs.odu.edu/images/nelson.jpg>;rel="last memento";datetime="Sat, 07 Jul 2007 02:44:15 GMT",<http://api.wayback.archive.org/memento/20070707024415/http://www.cs.odu.edu/images/nelson.jpg>;rel="prev memento";datetime="Sat, 07 Jul 2007 02:44:15 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024415/http://www.cs.odu.edu/images/nelson.jpg
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:44:15 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/images/nelson.jpg>; rel="timebundle", <http://www.cs.odu.edu/images/nelson.jpg>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/images/nelson.jpg>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/images/nelson.jpg>; rel="timegate", <http://api.wayback.archive.org/memento/20070707024415/http://www.cs.odu.edu/images/nelson.jpg>; rel="last memento"; datetime="Sat, 07 Jul 2007 02:44:15 GMT", <http://api.wayback.archive.org/memento/20070318210602/http://www.cs.odu.edu/images/nelson.jpg>; rel="first memento"; datetime="Sun, 18 Mar 2007 21:06:02 GMT", <http://api.wayback.archive.org/memento/20070612023511/http://www.cs.odu.edu/images/nelson.jpg>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:35:11 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 5566
+
+X-Archive-Orig-Content-Type: image/jpeg
+
+X-Archive-Orig-ETag: "8317-15be-1f50e800"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Fri, 02 Feb 2007 21:35:28 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:44:15 GMT
+
+Content-Type: image/jpeg
+
+Content-Length: 5566
+
+Date: Sun, 11 Dec 2011 23:48:16 GMT
+
+X-Varnish: 1044180531
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:48:24 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>;rel="timebundle",<http://www.cs.odu.edu/files/rmenu_bottom_229.gif>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601140729/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>;datetime="Wed, 01 Jun 2005 14:07:29 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20091010172816/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>;datetime="Sat, 10 Oct 2009 17:28:16 GMT";rel="last next memento",<http://api.wayback.archive.org/memento/20070612023459/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>;datetime="Tue, 12 Jun 2007 02:34:59 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20070707024037/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>;datetime="Sat, 07 Jul 2007 02:40:37 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707024037/http://www.cs.odu.edu/files/rmenu_bottom_229.gif
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:40:37 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="timebundle", <http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20050601140729/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="first memento"; datetime="Wed, 01 Jun 2005 14:07:29 GMT", <http://api.wayback.archive.org/memento/20070612023459/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:34:59 GMT", <http://api.wayback.archive.org/memento/20070707024037/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:40:37 GMT", <http://api.wayback.archive.org/memento/20091010172816/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:28:16 GMT", <http://api.wayback.archive.org/memento/20100616114354/http://www.cs.odu.edu/files/rmenu_bottom_229.gif>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:43:54 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 126
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad54-7e-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:40:37 GMT
+
+Content-Type: image/gif
+
+Content-Length: 126
+
+Date: Sun, 11 Dec 2011 23:48:24 GMT
+
+X-Varnish: 1044190090
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:48:47 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>;rel="timebundle",<http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20070612023607/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>;rel="first memento";datetime="Tue, 12 Jun 2007 02:36:07 GMT",<http://api.wayback.archive.org/memento/20100616115353/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>;rel="last memento";datetime="Wed, 16 Jun 2010 11:53:53 GMT",<http://api.wayback.archive.org/memento/20070719205251/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>;rel="prev memento";datetime="Thu, 19 Jul 2007 20:52:51 GMT",<http://api.wayback.archive.org/memento/20071007160718/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>;rel="next memento";datetime="Sun, 07 Oct 2007 16:07:18 GMT",<http://api.wayback.archive.org/memento/20070720172819/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>;rel="memento";datetime="Fri, 20 Jul 2007 17:28:19 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070720172819/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Fri, 20 Jul 2007 17:28:19 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="timebundle", <http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="timegate", <http://api.wayback.archive.org/memento/20070612023607/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="first memento"; datetime="Tue, 12 Jun 2007 02:36:07 GMT", <http://api.wayback.archive.org/memento/20070719205251/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="prev memento"; datetime="Thu, 19 Jul 2007 20:52:51 GMT", <http://api.wayback.archive.org/memento/20070720172819/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="memento"; datetime="Fri, 20 Jul 2007 17:28:19 GMT", <http://api.wayback.archive.org/memento/20071007160718/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="next memento"; datetime="Sun, 07 Oct 2007 16:07:18 GMT", <http://api.wayback.archive.org/memento/20100616115353/http://www.cs.odu.edu/files/rmenu_1st_featured_student.png>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:53:53 GMT"
+
+X-Archive-Orig-Content-Length: 820
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Client-Date: Fri, 20 Jul 2007 17:28:19 GMT
+
+X-Archive-Orig-ETag: "ad4f-334-8e08db40"
+
+X-Archive-Orig-Date: Fri, 20 Jul 2007 17:28:19 GMT
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Client-Response-Num: 1
+
+X-Archive-Orig-Client-Peer: 128.82.4.2:80
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+Content-Type: image/png
+
+Content-Length: 820
+
+Date: Sun, 11 Dec 2011 23:48:47 GMT
+
+X-Varnish: 1044216557
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:48:55 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/duc.jpg>;rel="timebundle",<http://www.cs.odu.edu/files/duc.jpg>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/duc.jpg>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20070612023818/http://www.cs.odu.edu/files/duc.jpg>;datetime="Tue, 12 Jun 2007 02:38:18 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20070719205044/http://www.cs.odu.edu/files/duc.jpg>;datetime="Thu, 19 Jul 2007 20:50:44 GMT";rel="last memento",<http://api.wayback.archive.org/memento/20070719205044/http://www.cs.odu.edu/files/duc.jpg>;datetime="Thu, 19 Jul 2007 20:50:44 GMT";rel="prev memento"
+
+Location: http://api.wayback.archive.org/memento/20070719205044/http://www.cs.odu.edu/files/duc.jpg
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Thu, 19 Jul 2007 20:50:44 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/duc.jpg>; rel="timebundle", <http://www.cs.odu.edu/files/duc.jpg>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/duc.jpg>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/duc.jpg>; rel="timegate", <http://api.wayback.archive.org/memento/20070719205044/http://www.cs.odu.edu/files/duc.jpg>; rel="last memento"; datetime="Thu, 19 Jul 2007 20:50:44 GMT", <http://api.wayback.archive.org/memento/20070612023818/http://www.cs.odu.edu/files/duc.jpg>; rel="first memento"; datetime="Tue, 12 Jun 2007 02:38:18 GMT", <http://api.wayback.archive.org/memento/20070718235711/http://www.cs.odu.edu/files/duc.jpg>; rel="prev memento"; datetime="Wed, 18 Jul 2007 23:57:11 GMT"
+
+X-Archive-Orig-Content-Length: 89957
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Client-Date: Thu, 19 Jul 2007 20:50:44 GMT
+
+X-Archive-Orig-ETag: "832c-15f65-4b6c9c80"
+
+X-Archive-Orig-Date: Thu, 19 Jul 2007 20:50:43 GMT
+
+X-Archive-Orig-Last-Modified: Tue, 24 Apr 2007 11:43:30 GMT
+
+X-Archive-Orig-Client-Response-Num: 1
+
+X-Archive-Orig-Client-Peer: 128.82.4.2:80
+
+X-Archive-Orig-Content-Type: image/jpeg
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+Content-Type: image/jpeg
+
+Content-Length: 89957
+
+Date: Sun, 11 Dec 2011 23:48:55 GMT
+
+X-Varnish: 1044224958
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:49:03 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>;rel="timebundle",<http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20070707024552/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>;rel="first memento";datetime="Sat, 07 Jul 2007 02:45:52 GMT",<http://api.wayback.archive.org/memento/20071112003437/http://cs.odu.edu/files/rmenu_1st_featured_benefactor.png>;rel="last next memento";datetime="Mon, 12 Nov 2007 00:34:37 GMT",<http://api.wayback.archive.org/memento/20070718235714/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>;rel="prev memento";datetime="Wed, 18 Jul 2007 23:57:14 GMT",<http://api.wayback.archive.org/memento/20070719205013/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>;rel="memento";datetime="Thu, 19 Jul 2007 20:50:13 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070719205013/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Thu, 19 Jul 2007 20:50:13 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>; rel="timebundle", <http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>; rel="timegate", <http://api.wayback.archive.org/memento/20070707024552/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>; rel="first memento"; datetime="Sat, 07 Jul 2007 02:45:52 GMT", <http://api.wayback.archive.org/memento/20070718235714/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>; rel="prev memento"; datetime="Wed, 18 Jul 2007 23:57:14 GMT", <http://api.wayback.archive.org/memento/20070719205013/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>; rel="memento"; datetime="Thu, 19 Jul 2007 20:50:13 GMT", <http://api.wayback.archive.org/memento/20071112003437/http://www.cs.odu.edu/files/rmenu_1st_featured_benefactor.png>; rel="next last memento"; datetime="Mon, 12 Nov 2007 00:34:37 GMT"
+
+X-Archive-Orig-Content-Length: 4066
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Client-Date: Thu, 19 Jul 2007 20:50:13 GMT
+
+X-Archive-Orig-ETag: "aebe-fe2-c7ffb900"
+
+X-Archive-Orig-Date: Thu, 19 Jul 2007 20:50:12 GMT
+
+X-Archive-Orig-Last-Modified: Fri, 22 Jun 2007 19:36:36 GMT
+
+X-Archive-Orig-Client-Response-Num: 1
+
+X-Archive-Orig-Client-Peer: 128.82.4.2:80
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+Content-Type: image/png
+
+Content-Length: 4066
+
+Date: Sun, 11 Dec 2011 23:49:04 GMT
+
+X-Varnish: 1044234211
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:49:11 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/cheng2.jpg>;rel="timebundle",<http://www.cs.odu.edu/files/cheng2.jpg>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/cheng2.jpg>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20070707024051/http://www.cs.odu.edu/files/cheng2.jpg>;datetime="Sat, 07 Jul 2007 02:40:51 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20070719205014/http://www.cs.odu.edu/files/cheng2.jpg>;datetime="Thu, 19 Jul 2007 20:50:14 GMT";rel="last memento",<http://api.wayback.archive.org/memento/20070719205014/http://www.cs.odu.edu/files/cheng2.jpg>;datetime="Thu, 19 Jul 2007 20:50:14 GMT";rel="prev memento"
+
+Location: http://api.wayback.archive.org/memento/20070719205014/http://www.cs.odu.edu/files/cheng2.jpg
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Thu, 19 Jul 2007 20:50:14 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/cheng2.jpg>; rel="timebundle", <http://www.cs.odu.edu/files/cheng2.jpg>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/cheng2.jpg>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/cheng2.jpg>; rel="timegate", <http://api.wayback.archive.org/memento/20070719205014/http://www.cs.odu.edu/files/cheng2.jpg>; rel="last memento"; datetime="Thu, 19 Jul 2007 20:50:14 GMT", <http://api.wayback.archive.org/memento/20070707024051/http://www.cs.odu.edu/files/cheng2.jpg>; rel="first memento"; datetime="Sat, 07 Jul 2007 02:40:51 GMT", <http://api.wayback.archive.org/memento/20070718235711/http://www.cs.odu.edu/files/cheng2.jpg>; rel="prev memento"; datetime="Wed, 18 Jul 2007 23:57:11 GMT"
+
+X-Archive-Orig-Content-Length: 28520
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Client-Date: Thu, 19 Jul 2007 20:50:14 GMT
+
+X-Archive-Orig-ETag: "aebf-6f68-e47d6c80"
+
+X-Archive-Orig-Date: Thu, 19 Jul 2007 20:50:14 GMT
+
+X-Archive-Orig-Last-Modified: Fri, 22 Jun 2007 19:44:34 GMT
+
+X-Archive-Orig-Client-Response-Num: 1
+
+X-Archive-Orig-Client-Peer: 128.82.4.2:80
+
+X-Archive-Orig-Content-Type: image/jpeg
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+Content-Type: image/jpeg
+
+Content-Length: 28520
+
+Date: Sun, 11 Dec 2011 23:49:11 GMT
+
+X-Varnish: 1044243905
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:49:19 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/rmenu_1st_about.png>;rel="timebundle",<http://www.cs.odu.edu/files/rmenu_1st_about.png>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_about.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601134025/http://www.cs.odu.edu/files/rmenu_1st_about.png>;rel="first memento";datetime="Wed, 01 Jun 2005 13:40:25 GMT",<http://api.wayback.archive.org/memento/20100616115230/http://www.cs.odu.edu/files/rmenu_1st_about.png>;rel="last memento";datetime="Wed, 16 Jun 2010 11:52:30 GMT",<http://api.wayback.archive.org/memento/20070612023534/http://www.cs.odu.edu/files/rmenu_1st_about.png>;rel="prev memento";datetime="Tue, 12 Jun 2007 02:35:34 GMT",<http://api.wayback.archive.org/memento/20091010173253/http://www.cs.odu.edu/files/rmenu_1st_about.png>;rel="next memento";datetime="Sat, 10 Oct 2009 17:32:53 GMT",<http://api.wayback.archive.org/memento/20070707024445/http://www.cs.odu.edu/files/rmenu_1st_about.png>;rel="memento";datetime="Sat, 07 Jul 2007 02:44:45 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024445/http://www.cs.odu.edu/files/rmenu_1st_about.png
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:44:45 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="timebundle", <http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="timegate", <http://api.wayback.archive.org/memento/20050601134025/http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="first memento"; datetime="Wed, 01 Jun 2005 13:40:25 GMT", <http://api.wayback.archive.org/memento/20070612023534/http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:35:34 GMT", <http://api.wayback.archive.org/memento/20070707024445/http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="memento"; datetime="Sat, 07 Jul 2007 02:44:45 GMT", <http://api.wayback.archive.org/memento/20091010173253/http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:32:53 GMT", <http://api.wayback.archive.org/memento/20100616115230/http://www.cs.odu.edu/files/rmenu_1st_about.png>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:52:30 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 613
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-ETag: "ad73-265-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:44:45 GMT
+
+Content-Type: image/png
+
+Content-Length: 613
+
+Date: Sun, 11 Dec 2011 23:49:19 GMT
+
+X-Varnish: 1044253755
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:49:27 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>;rel="timebundle",<http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20051221200737/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>;datetime="Wed, 21 Dec 2005 20:07:37 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20091010173533/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>;datetime="Sat, 10 Oct 2009 17:35:33 GMT";rel="last next memento",<http://api.wayback.archive.org/memento/20070612023902/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>;datetime="Tue, 12 Jun 2007 02:39:02 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20070707024646/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>;datetime="Sat, 07 Jul 2007 02:46:46 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707024646/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:46:46 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="timebundle", <http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="timegate", <http://api.wayback.archive.org/memento/20051221200737/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="first memento"; datetime="Wed, 21 Dec 2005 20:07:37 GMT", <http://api.wayback.archive.org/memento/20070612023902/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:39:02 GMT", <http://api.wayback.archive.org/memento/20070707024646/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="memento"; datetime="Sat, 07 Jul 2007 02:46:46 GMT", <http://api.wayback.archive.org/memento/20091010173533/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:35:33 GMT", <http://api.wayback.archive.org/memento/20100616115816/http://www.cs.odu.edu/files/rmenu_1st_important_dates.png>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:58:16 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 878
+
+X-Archive-Orig-Content-Type: image/png
+
+X-Archive-Orig-ETag: "ad77-36e-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:46:46 GMT
+
+Content-Type: image/png
+
+Content-Length: 878
+
+Date: Sun, 11 Dec 2011 23:49:27 GMT
+
+X-Varnish: 1044262966
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:49:34 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/shadow-tr.gif>;rel="timebundle",<http://www.cs.odu.edu/files/shadow-tr.gif>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/shadow-tr.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601155557/http://www.cs.odu.edu/files/shadow-tr.gif>;rel="first memento";datetime="Wed, 01 Jun 2005 15:55:57 GMT",<http://api.wayback.archive.org/memento/20100616112726/http://www.cs.odu.edu/files/shadow-tr.gif>;rel="last memento";datetime="Wed, 16 Jun 2010 11:27:26 GMT",<http://api.wayback.archive.org/memento/20070612023655/http://www.cs.odu.edu/files/shadow-tr.gif>;rel="prev memento";datetime="Tue, 12 Jun 2007 02:36:55 GMT",<http://api.wayback.archive.org/memento/20091010173212/http://www.cs.odu.edu/files/shadow-tr.gif>;rel="next memento";datetime="Sat, 10 Oct 2009 17:32:12 GMT",<http://api.wayback.archive.org/memento/20070707024009/http://www.cs.odu.edu/files/shadow-tr.gif>;rel="memento";datetime="Sat, 07 Jul 2007 02:40:09 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024009/http://www.cs.odu.edu/files/shadow-tr.gif
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:40:09 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/shadow-tr.gif>; rel="timebundle", <http://www.cs.odu.edu/files/shadow-tr.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/shadow-tr.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/shadow-tr.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20050601155557/http://www.cs.odu.edu/files/shadow-tr.gif>; rel="first memento"; datetime="Wed, 01 Jun 2005 15:55:57 GMT", <http://api.wayback.archive.org/memento/20070612023655/http://www.cs.odu.edu/files/shadow-tr.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:36:55 GMT", <http://api.wayback.archive.org/memento/20070707024009/http://www.cs.odu.edu/files/shadow-tr.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:40:09 GMT", <http://api.wayback.archive.org/memento/20091010173212/http://www.cs.odu.edu/files/shadow-tr.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:32:12 GMT", <http://api.wayback.archive.org/memento/20100616112726/http://www.cs.odu.edu/files/shadow-tr.gif>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:27:26 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 94
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad56-5e-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:40:09 GMT
+
+Content-Type: image/gif
+
+Content-Length: 94
+
+Date: Sun, 11 Dec 2011 23:49:35 GMT
+
+X-Varnish: 1044271789
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:49:52 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.lanl.gov/aggr/timebundle/http://www.cs.odu.edu/files/shadow-bl.gif>;rel="timebundle",<http://www.cs.odu.edu/files/shadow-bl.gif>;rel="original",<http://mementoproxy.lanl.gov/aggr/timemap/link/http://www.cs.odu.edu/files/shadow-bl.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601145553/http://www.cs.odu.edu/files/shadow-bl.gif>;datetime="Wed, 01 Jun 2005 14:55:53 GMT";rel="first memento",<http://api.wayback.archive.org/memento/20100616113211/http://www.cs.odu.edu/files/shadow-bl.gif>;datetime="Wed, 16 Jun 2010 11:32:11 GMT";rel="last memento",<http://api.wayback.archive.org/memento/20070612023809/http://www.cs.odu.edu/files/shadow-bl.gif>;datetime="Tue, 12 Jun 2007 02:38:09 GMT";rel="prev memento",<http://api.wayback.archive.org/memento/20091010173311/http://www.cs.odu.edu/files/shadow-bl.gif>;datetime="Sat, 10 Oct 2009 17:33:11 GMT";rel="next memento",<http://api.wayback.archive.org/memento/20070707024404/http://www.cs.odu.edu/files/shadow-bl.gif>;datetime="Sat, 07 Jul 2007 02:44:04 GMT";rel="memento"
+
+Location: http://api.wayback.archive.org/memento/20070707024404/http://www.cs.odu.edu/files/shadow-bl.gif
+
+Content-Length: 0
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:44:04 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/shadow-bl.gif>; rel="timebundle", <http://www.cs.odu.edu/files/shadow-bl.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/shadow-bl.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/shadow-bl.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20050601145553/http://www.cs.odu.edu/files/shadow-bl.gif>; rel="first memento"; datetime="Wed, 01 Jun 2005 14:55:53 GMT", <http://api.wayback.archive.org/memento/20070612023809/http://www.cs.odu.edu/files/shadow-bl.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:38:09 GMT", <http://api.wayback.archive.org/memento/20070707024404/http://www.cs.odu.edu/files/shadow-bl.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:44:04 GMT", <http://api.wayback.archive.org/memento/20091010173311/http://www.cs.odu.edu/files/shadow-bl.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:33:11 GMT", <http://api.wayback.archive.org/memento/20100616113211/http://www.cs.odu.edu/files/shadow-bl.gif>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:32:11 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 98
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad50-62-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:44:04 GMT
+
+Content-Type: image/gif
+
+Content-Length: 98
+
+Date: Sun, 11 Dec 2011 23:49:53 GMT
+
+X-Varnish: 1044292019
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 302 Found
+
+Date: Sun, 11 Dec 2011 23:50:10 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Link: <http://mementoproxy.cs.odu.edu/aggr/timebundle/http://www.cs.odu.edu/files/shadow-br.gif>;rel="timebundle",<http://www.cs.odu.edu/files/shadow-br.gif>;rel="original",<http://mementoproxy.cs.odu.edu/aggr/timemap/link/http://www.cs.odu.edu/files/shadow-br.gif>;rel="timemap";type="application/link-format",<http://api.wayback.archive.org/memento/20050601151818/http://www.cs.odu.edu/files/shadow-br.gif>;rel="first memento";datetime="Wed, 01 Jun 2005 15:18:18 GMT",<http://api.wayback.archive.org/memento/20100616112423/http://www.cs.odu.edu/files/shadow-br.gif>;rel="last memento";datetime="Wed, 16 Jun 2010 11:24:23 GMT",<http://api.wayback.archive.org/memento/20070612023553/http://www.cs.odu.edu/files/shadow-br.gif>;rel="prev memento";datetime="Tue, 12 Jun 2007 02:35:53 GMT",<http://api.wayback.archive.org/memento/20091010173058/http://www.cs.odu.edu/files/shadow-br.gif>;rel="next memento";datetime="Sat, 10 Oct 2009 17:30:58 GMT",<http://api.wayback.archive.org/memento/20070707024539/http://www.cs.odu.edu/files/shadow-br.gif>;rel="memento";datetime="Sat, 07 Jul 2007 02:45:39 GMT"
+
+Location: http://api.wayback.archive.org/memento/20070707024539/http://www.cs.odu.edu/files/shadow-br.gif
+
+Content-Length: 0
+
+Connection: close
+
+Content-Type: text/plain; charset=UTF-8
+
+
+
+HTTP/1.1 200 OK
+
+Server: Apache-Coyote/1.1
+
+Memento-Datetime: Sat, 07 Jul 2007 02:45:39 GMT
+
+Link: <http://api.wayback.archive.org/list/timebundle/http://www.cs.odu.edu/files/shadow-br.gif>; rel="timebundle", <http://www.cs.odu.edu/files/shadow-br.gif>; rel="original", <http://api.wayback.archive.org/list/timemap/link/http://www.cs.odu.edu/files/shadow-br.gif>; rel="timemap"; type="application/link-format", <http://api.wayback.archive.org/list/timegate/http://www.cs.odu.edu/files/shadow-br.gif>; rel="timegate", <http://api.wayback.archive.org/memento/20050601151818/http://www.cs.odu.edu/files/shadow-br.gif>; rel="first memento"; datetime="Wed, 01 Jun 2005 15:18:18 GMT", <http://api.wayback.archive.org/memento/20070612023553/http://www.cs.odu.edu/files/shadow-br.gif>; rel="prev memento"; datetime="Tue, 12 Jun 2007 02:35:53 GMT", <http://api.wayback.archive.org/memento/20070707024539/http://www.cs.odu.edu/files/shadow-br.gif>; rel="memento"; datetime="Sat, 07 Jul 2007 02:45:39 GMT", <http://api.wayback.archive.org/memento/20091010173058/http://www.cs.odu.edu/files/shadow-br.gif>; rel="next memento"; datetime="Sat, 10 Oct 2009 17:30:58 GMT", <http://api.wayback.archive.org/memento/20100616112423/http://www.cs.odu.edu/files/shadow-br.gif>; rel="last memento"; datetime="Wed, 16 Jun 2010 11:24:23 GMT"
+
+X-Archive-Orig-Connection: close
+
+X-Archive-Orig-Content-Length: 98
+
+X-Archive-Orig-Content-Type: image/gif
+
+X-Archive-Orig-ETag: "ad55-62-8e08db40"
+
+X-Archive-Orig-Server: Apache/2.2.0
+
+X-Archive-Orig-Accept-Ranges: bytes
+
+X-Archive-Orig-Last-Modified: Wed, 07 Jun 2006 01:47:49 GMT
+
+X-Archive-Orig-Date: Sat, 07 Jul 2007 02:45:39 GMT
+
+Content-Type: image/gif
+
+Content-Length: 98
+
+Date: Sun, 11 Dec 2011 23:50:11 GMT
+
+X-Varnish: 1044311937
+
+Age: 0
+
+Via: 1.1 varnish
+
+Connection: keep-alive
+
+X-Cache: MISS
+
+
+
+HTTP/1.1 404 Not Found
+
+Date: Sun, 11 Dec 2011 23:50:29 GMT
+
+Server: Apache
+
+Vary: negotiate,accept-datetime
+
+Transfer-Encoding: chunked
+
+Content-Type: text/html; charset=UTF-8
+
+
+
+HTTP/1.1 404 Not Found
+
+Date: Sun, 11 Dec 2011 23:50:36 GMT
+
+Server: Apache/2.2.15 (Red Hat)
+
+Vary: negotiate,accept-datetime
+
+Connection: close
+
+Transfer-Encoding: chunked
+
+Content-Type: text/html; charset=UTF-8
+
+
+

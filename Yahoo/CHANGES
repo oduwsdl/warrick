@@ -1,0 +1,242 @@
+The following updates have been made to Warrick:
+
+- 2006-02-02   Fixed bug allowing Warrick to gracefully 
+               try other stored URLs when broken ones
+               exist.
+
+- 2006-02-02   Added check for URLs that have multiple 
+               slashes.  I just drop all multiple slashes.
+               Example: http://foo.org//a?b//c ->
+                        http://foo.org/a?b//c
+
+- 2006-01-20   Allows new style Google cache headers to
+               be properly parsed for date.
+
+- 2006-02-20   Changed Google cache requests to use Google
+               API (which requires user to get a Google key).
+               Google license key can be stored in a file
+               google_key.txt or passed in as a command line
+               argument --google-key.  Warrick now uses
+               lister queries by default to get cached URLs.
+               
+- 2006-02-28   Made make_http_request more robust by sleeping
+               after receiving an http 500 response (sometimes
+               IA does this).
+               
+- 2006-03-01   Implemented feature to stop Warrick from running
+               in a controled way by using a stop file.
+               
+- 2006-04-17   Changed code looking for Google's Next button
+               per a change that Google made sometime in Apr.
+
+- 2006-04-29   Fixed bug which didn't allow hyphens in the 
+               domain name of the starting URL.
+               
+- 2006-04-29   Improved Google "site:" queries to match URLs
+               that are missing the 'www.' prefix.
+               
+- 2006-04-30   Improved documentation produced by -help.
+
+- 2006-05-24   Fixed bug that caused binary files in Windows to
+               have a carriage return (%OD) inserted at every
+               occurance of a line feed (%OA) character.  This
+               caused images to look garbled.
+          
+- 2006-06-06   Fixed problem saving files in Windows that 
+               contain '?' and other characters in them.
+               
+- 2006-06-07   Version 1.3.6.  Made Warrick try 5 times to get 
+               list of archived URLs from IA when they have 
+               temporary problems.
+               
+- 2006-06-16   Version 1.4.  Improved handling of -v and -k 
+               options.  Removed LOG from each print statment and
+               just redirected STDOUT to print to LOG.  Fixed
+               possible bug when storing files to Windows.               
+
+- 2006-06-19   Version 1.4.1.  Fixed bug to make changes in
+               Windows file names to be reflected in links to
+               those files.
+
+- 2006-06-26   Version 1.5.  Added option to limit the date range
+               of resources to be downloaded from IA.
+              
+- 2006-07-10   Version 1.5.1.  Fixed bug that made IA only read
+               first set of results for lister queries due to 
+               date range changes introduced in 1.5.
+               
+- 2006-07-22   Version 1.5.2.  Numerous modifications/fixes:
+               1) Make Warrick save http://foo.org/bar?a/b/
+                  as foo.org/bar?a_b_ instead of 
+                  foo.org/bar?a_b_index.html
+               2) Remove sleep when no HTTP GET request is 
+                  made between resource recoveries
+               3) Don't recover starting URL twice when using
+                  complete recovery option
+               4) Redirect STDERR to STDOUT
+               5) Delay between Yahoo API calls when receiving
+                  an API error and warn the user
+               6) Modify Google cache storage so it doesn't
+                  automatically remove index.html from the end
+                  of a URL that was page-scraped.
+               7) Fix scrape for Google's Next button.
+               8) Terminate Google looping when getting back
+                  Supplemental Results
+               9) TODO: Fix scrape for Google Images
+               
+- 2006-07-24   Version 1.5.3.  Fixed queries for Google images
+               so it now can properly read the JavaScript results
+               produced by lister queries.
+               
+- 2006-07-27   Version 1.5.4.  Added ability to just specify a
+               single year for accessing IA resources.  This
+               speeds up lister queries.
+
+- 2006-08-10   Version 1.5.5.  Added ability to just specify a 
+               single day for accessing IA resources.  Fixed a
+               new problem with Yahoo which has started changing
+               FRAME tags so Yahoo is the least favored when
+               recovering frameset pages.  Added code to remove
+               common session IDs from links.
+               
+- 2006-08-19   Version 1.5.6.  Serveral fixes/improvements:
+               1) Fixed bug where getting a Google document is
+                  wrong when lister queries don't find all cached
+                  resources.
+               2) Only query IA for URLs ending in '/', '.htm',
+                  '.html', '.shtml', '.asp', '.jsp', '.php' after 
+                  querying search engines.  
+               3) When recovering a URL that may point to a 
+                  directory, search the frontier, seen, and 
+                  cached URLs first to verify.
+               4) Allow multiple Google keys to be used.
+               5) Allow user to specify max daily queries for 
+                  repos.
+               6) Added check for 403 (robots.txt blocks access) 
+                  responses from IA.
+               7) Lower-cased URLs if option is supplied before
+                  storing in Cached_urls.
+                  
+- 2006-08-23   Version 1.6.0.  Converted $url->path to $url->epath
+               so URLs with %2F don't cause Warrick to terminate.
+               Fixed logic when no SEs have an HTML resources (IA 
+               was not getting queried).  Fixed several places
+               where ignore case option was not being considered.
+               
+- 2006-08-29   Version 1.6.1.  
+               1) Changed MSN API key since MSN suddenly started 
+                  rejecting the previous key.  
+               2) Added -gl (google-live) switch so cached pages 
+                  could be obtained from the public web interface 
+                  instead of using the API which is working from 
+                  an older and smaller repository.  
+               3) Started dumping URLs that remain in the frontier 
+                  out to the log file.
+               4) Allowed initial root URL to contain a file
+                  instead of just a directory when doing recursive
+                  reconstructions.  So http://foo.org/welcome.html
+                  is now acceptable instead of just http://foo.org.
+
+- 2006-10-02   Version 1.6.2
+               1) Allowed Google queries to keep asking for more
+                  if 100 results were returned and Next button 
+                  wasn't found.
+               2) Replaced SimpleLinkExtor for link extraction with
+                  my own custom link extractor that grabs URLs in 
+                  redirect meta tags.
+               3) Added logic to look for more than 250 results from
+                  MSN in anticipation that eventually they'll return
+                  1000 results like they are now doing from their WI.
+               4) Started logging repos where we find cached results
+                  that are not recovered.
+ 
+- 2006-10-07   Version 1.6.3
+               1) Fixed bug with -v option.  The '?' char in 
+                  recovered files is replaced with '-' so the
+                  file loads in the browser by default.
+               2) Added test to see if IA is having technical
+                  problems.
+
+- 2007-02-02   Version 1.7.0
+               1) Fixed Google page scraping code to read past the
+                  first page of results.
+               2) Made Warrick go back to WUI access for cached
+                  pages since Google is no longer giving out API 
+                  keys for their SOAP API.
+               3) Improved the URL normalization routine.
+               4) Created separate classes for each web repository.
+                  Moved much of the repository-specific code into
+                  the classes to reduce the size and complexity of
+                  warrick.pl.
+               5) Yahoo Images appears to have a problem when using
+                  the "site" parameter which means Warrick will not
+                  see any images from Yahoo lister queries.  I've
+                  notified the Yahoo API email list about the 
+                  problem and supposedly it's going to be fixed.
+
+- 2007-03-23   Version 1.7.1
+               1) Added debug output of how many URLs have been
+                  recovered so far.
+               2) Handled special situation where IA has the same
+                  URL indexed (by our normalization rules) at more
+                  than one location.  Example: www.foo.org and
+                  foo.org.
+                  
+- 2007-04-09   Version 1.7.2
+               1) Added --proxy switch to indicate a proxy server
+                  is being used.
+               2) Made Warrick self-regulate daily queries between
+                  invocations (ie, Warrick will remember how many
+                  queries it made the last time it ran so it won't
+                  accidentally use too many queries in the same 24
+                  hour period).
+ 
+- 2007-04-23   Version 1.7.3
+               1) Added tests for bad characters in the domain 
+                  name when parsing a URL.
+               2) Added check for missing cached URL from MSN.
+               
+- 2007-07-28   Version 1.7.4
+               1) Applied fix to the regex: /^$Limit_dir/ which must 
+                  be escaped. -Thanks to Stas Bekman for this fix.
+               2) Changed all occurances of MSN to Live Search. This
+                  means 'm' parameter is now 'ls'.
+               3) Corrected error with Google repo not reseting all
+                  keys back to 0 used queries when maxed-out.   
+               4) Improved ability to stop Warrick gracefully in mid
+                  recovery when it detects a terminate early file.    
+               5) Initial lister queries are used to determine if the
+                  starting URL should be terminated with a slash.           
+               6) Added Tron-like saying, "End of Line", when Warrick
+                  completes, mainly for use by the on-line user 
+                  interface.
+                  
+- 2009-05-11   Version 1.7.7
+               1) Fixed regexp looking for Google & Live's
+                  cache timestamp and to remove headers.
+               2) Allowed Warrick to give up when getting 403
+                  response from Yahoo.
+                
+- 2009-05-19   Version 1.7.8
+               1) Changed how Warrick accessed Yahoo's cache (they
+                  now require one access to the frames page and a 
+                  second access to the actual page).
+
+- 2009-06-22   Version 1.7.9
+               1) Made sure call to Yahoo for frames page did not
+                  happen if an image was being accessed.
+
+- 2010-01-06   Version 1.8
+	       1) Improved robustness against flaky Yahoo cache.
+               2) Added -input-file option. (by James Young)
+               3) Formatted help to fit 80 columns. (James Young)
+               4) Removed Google API key options since it is no
+                  longer supported by Google.
+               5) Cleaned out Yahoo-added HTML from cached pages.
+
+- 2010-07-05   Version 1.8.1
+               1) Fixed 404 error with Internet Archive
+               2) Removed SOAP::Lite requirement since Google API
+                  is no longer used.
+
+           

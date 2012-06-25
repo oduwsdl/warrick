@@ -1,0 +1,1 @@
+<html><body><br/><center><table width='800px'><tr><td><div style='background-color: #e0e0e0; padding: 10px;'><br/><center><b>Error: 404</b></center>Resource not in archive<br/><i><blockquote><ul><li>Resource: http://staticweb.archive.org/js/disclaim.js</li></ul></blockquote></i><br/><br/></div></td></tr></table></body></html>
