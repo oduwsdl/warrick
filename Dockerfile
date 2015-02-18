@@ -8,7 +8,7 @@ WORKDIR /warrick
 RUN chmod a+x *.sh *.pl
 
 # Install Perl package dependencies
-./perl_package_dep_installer.sh
+RUN ./perl_package_dep_installer.sh
 
 VOLUME ["/output"]
 
