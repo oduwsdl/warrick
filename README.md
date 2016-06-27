@@ -9,13 +9,26 @@ Version 2.0
 * Python
 * Perl libraries: HTML::TagParser, LinkExtractor, Cookies, Status, and Date, and the URI library
 
-## Installation 
-Run ./INSTALL at the command line to install Warrick's dependencies.
+## Installation
+Install Warrick's dependencies on the command line by running:
 
-To test the installation, run ./TEST. This will recover a web page and compare it to a master copy.
+```sh
+./INSTALL
+```
 
-For information on running Warrick, run at your command line:
- `perl warrick.pl --help`
+Test the installation by running:
+
+```sh
+./TEST
+```
+
+This will recover a web page and compare it to a master copy.
+
+For further options and information on using warrick, run:
+
+```sh
+perl warrick.pl --help
+```
 
 This version of Warrick has been redesigned to reconstruct lost
 websites from the Web Infrastructure using [Memento](http://www.mementoweb.org/).
