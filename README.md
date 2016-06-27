@@ -10,14 +10,15 @@ Version 2.0
 * Perl libraries: HTML::TagParser, LinkExtractor, Cookies, Status, and Date, and the URI library
 
 ## Installation 
-Running ./INSTALL at the command line should install these dependencies. To test the installation, run ./TEST. This will recover a web page and compare it to a master copy.
+Run ./INSTALL at the command line to install Warrick's dependencies.
+
+To test the installation, run ./TEST. This will recover a web page and compare it to a master copy.
 
 For information on running Warrick, run at your command line:
  `perl warrick.pl --help`
 
 This version of Warrick has been redesigned to reconstruct lost
-websites from the Web Infrastructure using Memento. (For more
-information on Memento, please visit http://www.mementoweb.org/.)
+websites from the Web Infrastructure using [Memento](http://www.mementoweb.org/).
 
 ## Recovery Process Details
 
@@ -33,18 +34,12 @@ PID_SERVERNAME.save is the saved status file. This file is stored in the recover
 
 ## History 
 
-Created by Frank McCown at Old Dominion University - 2006
-
-Modified by Justin F. Brunelle at Old Dominion University - 2011
-jbrunelle@cs.odu.edu
+* Modified by Justin F. Brunelle ([@jbrunelle](https://github.com/jfbrunelle)) at Old Dominion University - 2011
+* Created by Frank McCown ([@fmccown](https://github.com/fmccown)) at Old Dominion University - 2006
 
 ## Contact 
 
-We want to know if you have if you have used Warrick to 
-reconstruct your lost website.  Please e-mail me at jbrunelle@cs.odu.edu
-
-If you would like to assist the development team in refining and improving Warrick, please provide each of these files to
-the development team by emailing them to jbrunelle@cs.odu.edu.
+We want to know if you have if you have used Warrick toreconstruct your lost website. If you have successfully recovered your site or  would like to assist in further development and improvements Warrick, please [Open a GitHub issue](https://github.com/oduwsdl/warrick/issues/new) and/or contact jbrunelle@cs.odu.edu.
 
 ## License
 
