@@ -1,10 +1,6 @@
 # Warrick
 The website reconstructor
 
-Version 2.0
-
-**NOTE:** Warrick is not currently operational. Please excuse the delay while we fix its issues.
-
 ## Dependencies 
 * Perl5 or later
 * cURL
