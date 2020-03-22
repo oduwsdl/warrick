@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:16.04
 MAINTAINER Sawood Alam <ibnesayeed@gmail.com>
 
 RUN apt-get update && apt-get -y install git make perl cpanminus python curl libcurl3 libcurl3-dev supervisor build-essential
