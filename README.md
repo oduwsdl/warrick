@@ -45,7 +45,7 @@ PID_SERVERNAME.save is the saved status file. This file is stored in the recover
 
 ## History 
 
-* Modified by Justin F. Brunelle ([@jbrunelle](https://github.com/jfbrunelle)) at Old Dominion University - 2011
+* Modified by Justin F. Brunelle ([@jbrunelle](https://github.com/jbrunelle)) at Old Dominion University - 2011
 * Created by Frank McCown ([@fmccown](https://github.com/fmccown)) at Old Dominion University - 2006
 
 ## Contact 
