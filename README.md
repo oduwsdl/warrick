@@ -50,7 +50,7 @@ PID_SERVERNAME.save is the saved status file. This file is stored in the recover
 
 ## Contact 
 
-We want to know if you have if you have used Warrick toreconstruct your lost website. If you have successfully recovered your site or  would like to assist in further development and improvements Warrick, please [Open a GitHub issue](https://github.com/oduwsdl/warrick/issues/new) and/or contact jbrunelle@cs.odu.edu.
+We want to know if you have used Warrick to reconstruct your lost website. If you have successfully recovered your site or  would like to assist in further development and improvements Warrick, please [Open a GitHub issue](https://github.com/oduwsdl/warrick/issues/new) and/or contact jbrunelle@cs.odu.edu.
 
 ## License
 
