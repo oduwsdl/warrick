@@ -37,8 +37,9 @@ This program creates several files that provide information or log data about th
 
 For a given recovery RECO_NAME, we will create a RECO_NAME_recoveryLog.out, PID_SERVERNAME.save,
 and logfile.o. These are created for every recovery job. RECO_NAME_recoveryLog.out is created in the home warrick directory, and contains a report of every URI recovered, the location of the recovered archived copy (the memento), and  the location the file was saved to on the local machine in the following format:
+
 * ORIGINAL URI => MEMENTO URI => LOCAL FILE
-* 
+  
 Lines pre-pended with "FAILED" indicate a failed recovery of ORIGINAL URI
 
 PID_SERVERNAME.save is the saved status file. This file is stored in the recovery directory and contains the information for resuming a suspended recovery job, as well as the stats for the recovery, such as the number of resources failed to be recovered, the number from different archives, etc. logfile.o is a temporary file that can be regarded as junk. It contains the headers for the last recovered resource.
