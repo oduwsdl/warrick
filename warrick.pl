@@ -236,7 +236,7 @@ if ($opts{version}) {
 ##NOTE: Currently does NOT work on Windows. This feature will come in a subsequent version.
 # See if we're running on Windows.  This affects the file names we save to.
 if ($^O eq "MSWin32") {
-	&echo("RUNNING ON WINDOWS!!\n\n");
+	&echo("RUNNING ON WINDOWS\n\n");
 	$opts{windows} = 1;
 
 	#&echo("Converting from $WorkingDir to ");
@@ -564,7 +564,7 @@ if(!defined $opts{input_file} && !(defined $opts{resume_file}))
 
 		if($Url_start eq "")
 		{
-			print "\n\nThis is an invalid URI!!!\n\n";
+			print "\n\nThis is an invalid URI!\n\n";
 			&terminate();
 		}
 
@@ -590,7 +590,7 @@ if($opts{recursive_download})
 my $useDLdir = 0;
 if($opts{download_dir})
 {
-	&echo("Set DIR values!!\n\n");
+	&echo("Set DIR values!\n\n");
 	&setDirVals();
 }
 
@@ -702,8 +702,8 @@ sub setDirVals
 	##test for write permissions on this directory
 	if(-e $directory && !(-w $directory))
 	{
-		print("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!!\nPlease choose a writeable location\n\n");
-		&logIt("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!!\nPlease choose a writeable location\n\n");
+		print("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!\nPlease choose a writeable location\n\n");
+		&logIt("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!\nPlease choose a writeable location\n\n");
 		&terminate();
 	}
 }
@@ -719,8 +719,8 @@ sub createDir
 	##test for write permissions on this directory
 	if(!(-w $WorkingDir))
 	{
-		print("YOU DO NOT HAVE PERMISSION TO WRITE TO $WorkingDir!!\nPlease choose a writeable location\n\n");
-		&logIt("YOU DO NOT HAVE PERMISSION TO WRITE TO $WorkingDir!!\nPlease choose a writeable location\n\n");
+		print("YOU DO NOT HAVE PERMISSION TO WRITE TO $WorkingDir!\nPlease choose a writeable location\n\n");
+		&logIt("YOU DO NOT HAVE PERMISSION TO WRITE TO $WorkingDir!\nPlease choose a writeable location\n\n");
 		&terminate();
 	}
 	
@@ -856,8 +856,8 @@ if (defined $opts{download_dir}) {
 
 	if(!(-d $directory) || !(-w $directory))
 	{
-		print("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!!\nPlease choose a writeable location\n\n");
-		&logIt("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!!\nPlease choose a writeable location\n\n");
+		print("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!\nPlease choose a writeable location\n\n");
+		&logIt("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!\nPlease choose a writeable location\n\n");
 		&terminate();
 	}
 
@@ -1145,8 +1145,8 @@ sub begin_recovery()
 	##test for write permissions on this directory
 	if(!(-w $directory))
 	{
-		print("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!!\nPlease choose a writeable location\n\n");
-		&logIt("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!!\nPlease choose a writeable location\n\n");
+		print("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!\nPlease choose a writeable location\n\n");
+		&logIt("YOU DO NOT HAVE PERMISSION TO WRITE TO $directory!\nPlease choose a writeable location\n\n");
 		&terminate();
 	}
 	
@@ -1472,7 +1472,7 @@ sub normalize_url
 	
 	#	if(($url eq ''))
 	#	{
-	#		print "This is an invalid URI!!\n\n";
+	#		print "This is an invalid URI!\n\n";
 	#		&terminate();
 	#	}
         }
@@ -1849,7 +1849,7 @@ sub recover_resource($){
 		if(&isInCache($cacheCmd))
 		{
 			#debug
-			#print "$cacheCmd was in the cache!!\n\n";
+			#print "$cacheCmd was in the cache!\n\n";
 			#debug
 			#sleep(5);
 
@@ -2064,7 +2064,7 @@ sub removeBranding($)
 		return;
 	}
 
-	&echo("Removing IA Branding of $filename!!\n\n");
+	&echo("Removing IA Branding of $filename!\n\n");
 
 
 	open(DAT, $filename);
@@ -2216,7 +2216,7 @@ sub extract_links($) {
 
 	if($#raw_data < 0)
 	{
-		&echo("No Content in $targetFile!!\n\n");
+		&echo("No Content in $targetFile!\n\n");
 		return;
 	}
 
@@ -2383,7 +2383,7 @@ sub is_acceptable_link {
 			#&echo("BAD URI::" . $link . " is not in the $subPath path!\n");
 			return 0;
 		}
-		#print "SUBDIR DEFINED!!\n\n";
+		#print "SUBDIR DEFINED!\n\n";
 		#exit();
 	}
 	#print "outside if: $link\n";
@@ -2484,7 +2484,6 @@ sub print_help {
 
 Warrick $Version - Web Site Reconstructor by Justin F. Brunelle (Old Dominion University)
       Prior version by Frank McCown
-http://warrick.cs.odu.edu/
 
 Usage: warrick [OPTION]... [URL]
 
@@ -2876,7 +2875,7 @@ sub getTMfromCache($)
 	my $tmp = `$cpCmd`;
 
 	my $RECO_FILE = substr($directory, 0, length($directory)) . "_recoveryLog.out";
-	writeToRecoLog($RECO_FILE, "FROM CACHE!! $_[0] => $cacheCmd => $toFile");
+	writeToRecoLog($RECO_FILE, "FROM CACHE! $_[0] => $cacheCmd => $toFile");
 
 
 	#debug
@@ -3055,7 +3054,7 @@ sub allRelative($)
 	my $path = $url2->path();
 	my @pathComponents = $url2->path_components;
 
-	#print "Testing!!\n\n";
+	#print "Testing!\n\n";
 	#print "$url2 ==>\n";
 	#print "$host ===> $path ===>\n";
 	
@@ -3075,12 +3074,8 @@ sub allRelative($)
 	}
 	$host =~ s/\./\\\./g;
 
-	#print "\n\n$replace will get you to $host from $path\n\n";
-
 	#replace the host name 
-	#&echo("Running sed -i 's/$host/\/./g' $targetFilePath\n");
 	&echo("Running sed -i 's/$host/$replace/g' $targetFilePath\n");
-	#my $tmp = `sed -i 's/$host/\.\\//g' "$targetFilePath"`;
 	my $tmp = `sed -i 's/$host/$replace/g' "$targetFilePath"`;
 
 	#get rid of the web archive's local links to the repository
@@ -3452,7 +3447,7 @@ sub IAlister()
 		return;
 	}
 
-	#print "DEBUGGING!!!!!! not listering\n\n\n\n\n";
+	#print "DEBUGGING! not listering\n\n\n\n\n";
 	#return;
 
 	##The url of an IA listing of our starting URI
